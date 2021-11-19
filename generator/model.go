@@ -355,7 +355,7 @@ func makeGenDefinitionHierarchy(name, pkg, container string, schema spec.Schema,
 
 	defaultImports := map[string]string{
 		"errors":   "github.com/go-openapi/errors",
-		"runtime":  "github.com/go-openapi/runtime",
+		"runtime":  "github.com/protodev-site/runtime",
 		"swag":     "github.com/go-openapi/swag",
 		"validate": "github.com/protodev-site/validate",
 	}

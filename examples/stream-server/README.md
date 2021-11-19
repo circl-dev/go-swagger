@@ -140,7 +140,7 @@ import (
   ...
 	"github.com/protodev-site/runtime"
 	httptransport "github.com/protodev-site/runtime/client"
-	"github.com/go-swagger/go-swagger/examples/stream-server/client"
+	"github.com/protodev-site/go-swagger/examples/stream-server/client"
   ...
 )
 

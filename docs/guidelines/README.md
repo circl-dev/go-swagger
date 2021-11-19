@@ -10,14 +10,14 @@ Cloning `go-swagger`:
 ```bash
 mkdir -p $GOPATH/src/github.com/go-swagger
 cd $GOPATH/src/github.com/go-swagger
-git clone https://github.com/go-swagger/go-swagger
+git clone https://github.com/protodev-site/go-swagger
 ```
 
 All dependencies are available in the checked out `vendor` directory.
 
 Building and installing go-swagger from source on your system:
 ```
-go install github.com/go-swagger/go-swagger/cmd/swagger
+go install github.com/protodev-site/go-swagger/cmd/swagger
 ```
 
 Running standard unit tests:
@@ -74,7 +74,7 @@ Check your work with golangci linter:
 
 All PR's require a review by a team member, whatever the CI engines tell.
 
-##### go-swagger/go-swagger
+##### protodev-site/go-swagger
 
 Enabled CI engines and bots:
 - CircleCI (linux)
@@ -167,7 +167,7 @@ Do not forget to update this script when you add a new example.
 
 ### Writing documentation
 
-##### go-swagger/go-swagger
+##### protodev-site/go-swagger
 
 The `go-swagger` documentation site (`goswagger.io`) is built with GitBooks.
 Configuration is in `book.json`. The documents root is in `./docs`

@@ -252,6 +252,12 @@ func collectOperationsFromInput(input *spec.Swagger) map[string]*spec.Operation 
 			if pth.Options != nil {
 				operations[pth.Options.ID] = pth.Options
 			}
+			if pth.Request != nil {
+				operations[pth.Request.ID] = pth.Request
+			}
+			if pth.Message != nil {
+				operations[pth.Message.ID] = pth.Message
+			}
 		}
 	}
 	return operations

@@ -10,7 +10,6 @@ require (
 	github.com/felixge/httpsnoop v1.0.2 // indirect
 	github.com/go-openapi/errors v0.20.1
 	github.com/go-openapi/inflect v0.19.0
-	github.com/go-openapi/loads v0.21.0
 	github.com/go-openapi/strfmt v0.21.0
 	github.com/go-openapi/swag v0.19.15
 	github.com/go-stack/stack v1.8.1 // indirect

@@ -164,6 +164,28 @@ func setPathOperation(method, id string, pthObj *spec.PathItem, op *spec.Operati
 		} else {
 			pthObj.Options = op
 		}
+
+	case "REQUEST":
+		if pthObj.Request != nil {
+			if id == pthObj.Request.ID {
+				op = pthObj.Request
+			} else {
+				pthObj.Request = op
+			}
+		} else {
+			pthObj.Request = op
+		}
+
+	case "MESSAGE":
+		if pthObj.Message != nil {
+			if id == pthObj.Message.ID {
+				op = pthObj.Message
+			} else {
+				pthObj.Message = op
+			}
+		} else {
+			pthObj.Message = op
+		}
 	}
 
 	return op

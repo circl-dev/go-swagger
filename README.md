@@ -1,18 +1,18 @@
-# Swagger 2.0 [![Build Status](https://circleci.com/gh/go-swagger/go-swagger.svg?style=shield)](https://circleci.com/gh/go-swagger/go-swagger) [![Build status](https://ci.appveyor.com/api/projects/status/x377t5o9ennm847o/branch/master?svg=true)](https://ci.appveyor.com/project/casualjim/go-swagger/branch/master) [![codecov](https://codecov.io/gh/go-swagger/go-swagger/branch/master/graph/badge.svg)](https://codecov.io/gh/go-swagger/go-swagger) [![GitHub version](https://badge.fury.io/gh/go-swagger%2Fgo-swagger.svg)](https://badge.fury.io/gh/go-swagger%2Fgo-swagger)
+# Swagger 2.0 [![Build Status](https://circleci.com/gh/protodev-site/go-swagger.svg?style=shield)](https://circleci.com/gh/protodev-site/go-swagger) [![Build status](https://ci.appveyor.com/api/projects/status/x377t5o9ennm847o/branch/master?svg=true)](https://ci.appveyor.com/project/casualjim/go-swagger/branch/master) [![codecov](https://codecov.io/gh/protodev-site/go-swagger/branch/master/graph/badge.svg)](https://codecov.io/gh/protodev-site/go-swagger) [![GitHub version](https://badge.fury.io/gh/go-swagger%2Fgo-swagger.svg)](https://badge.fury.io/gh/go-swagger%2Fgo-swagger)
 [![Slack Status](https://slackin.goswagger.io/badge.svg)](https://slackin.goswagger.io)
 [![license](http://img.shields.io/badge/license-Apache%20v2-orange.svg)](https://raw.githubusercontent.com/swagger-api/swagger-spec/master/LICENSE)
-[![GoDoc](https://godoc.org/github.com/go-swagger/go-swagger?status.svg)](http://godoc.org/github.com/go-swagger/go-swagger)
+[![GoDoc](https://godoc.org/github.com/protodev-site/go-swagger?status.svg)](http://godoc.org/github.com/protodev-site/go-swagger)
 [![Docker Repository on Quay](https://quay.io/repository/goswagger/swagger/status "Docker Repository on Quay")](https://quay.io/repository/goswagger/swagger)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgo-swagger%2Fgo-swagger.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgo-swagger%2Fgo-swagger?ref=badge_shield)
-[![GolangCI](https://golangci.com/badges/github.com/go-swagger/go-swagger.svg)](https://golangci.com)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-swagger/go-swagger)](https://goreportcard.com/report/github.com/go-swagger/go-swagger)
+[![GolangCI](https://golangci.com/badges/github.com/protodev-site/go-swagger.svg)](https://golangci.com)
+[![Go Report Card](https://goreportcard.com/badge/github.com/protodev-site/go-swagger)](https://goreportcard.com/report/github.com/protodev-site/go-swagger)
 
 This package contains a golang implementation of Swagger 2.0 (aka [OpenAPI 2.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)):
 it knows how to serialize and deserialize swagger specifications.
 
 [Swagger](https://swagger.io/) is a simple yet powerful representation of your RESTful API.<br>
 
-> ![swagger](https://raw.githubusercontent.com/go-swagger/go-swagger/master/docs/favicon-16x16.png) **Swagger in a nutshell**
+> ![swagger](https://raw.githubusercontent.com/protodev-site/go-swagger/master/docs/favicon-16x16.png) **Swagger in a nutshell**
 >
 > With the largest ecosystem of API tooling on the planet, thousands of developers are supporting Swagger in almost every modern programming language and deployment environment.
 >
@@ -99,7 +99,7 @@ There is more to that...
 `go-swagger` is available as binary or docker releases as well as from source: [more details](https://goswagger.io/install.html).
 
 ## Use-cases
-The main package of the toolkit, go-swagger/go-swagger, provides command line tools to help working with swagger.
+The main package of the toolkit, protodev-site/go-swagger, provides command line tools to help working with swagger.
 
 The toolkit is highly customizable and allows endless possibilities to work with OpenAPI2.0 specifications.
 
@@ -135,7 +135,7 @@ To generate a [client for a swagger spec](https://goswagger.io/generate/client.h
 swagger generate client [-f ./swagger.json] -A [application-name [--principal [principal-name]]
 ```
 ### Generate an CLI (Command line tool)
-To generate a [CLI for a swagger spec](https://github.com/go-swagger/go-swagger/tree/master/examples/cli) document:
+To generate a [CLI for a swagger spec](https://github.com/protodev-site/go-swagger/tree/master/examples/cli) document:
 ```
 swagger generate cli [-f ./swagger.json] -A [application-name [--principal [principal-name]]
 ```
@@ -191,7 +191,7 @@ swagger generate markdown -f {spec} --output swagger.mode
 
 Try `go-swagger` in a free online workspace using Gitpod:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/go-swagger/go-swagger)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/protodev-site/go-swagger)
 
 ## Licensing
 
@@ -275,10 +275,10 @@ Spec flattening and $ref resolution brought breaking changes in model generation
 You will have to rename some imports:
 
 ```
-github.com/go-swagger/go-swagger/httpkit/validate to github.com/protodev-site/validate
-github.com/go-swagger/go-swagger/httpkit to github.com/protodev-site/runtime
+github.com/protodev-site/go-swagger/httpkit/validate to github.com/protodev-site/validate
+github.com/protodev-site/go-swagger/httpkit to github.com/protodev-site/runtime
 github.com/naoina/denco to github.com/protodev-site/runtime/middleware/denco
-github.com/go-swagger/go-swagger to github.com/go-openapi
+github.com/protodev-site/go-swagger to github.com/go-openapi
 ```
 
 ### Using 0.5.0
