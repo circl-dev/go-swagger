@@ -23,10 +23,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/spec"
-	"github.com/go-swagger/go-swagger/scan"
 	"github.com/jessevdk/go-flags"
+	"github.com/protodev-site/go-swagger/scan"
+	"github.com/protodev-site/spec"
+	"github.com/protodev-site/loads"
 	"gopkg.in/yaml.v2"
 )
 

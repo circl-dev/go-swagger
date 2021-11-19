@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 func getTypeFromSchema(schema *spec.Schema) (typeName string, isArray bool) {

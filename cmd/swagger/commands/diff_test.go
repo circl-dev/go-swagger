@@ -11,8 +11,8 @@ import (
 
 	"testing"
 
-	"github.com/go-swagger/go-swagger/cmd/swagger/commands/diff"
-	"github.com/go-swagger/go-swagger/cmd/swagger/commands/internal/cmdtest"
+	"github.com/protodev-site/go-swagger/cmd/swagger/commands/diff"
+	"github.com/protodev-site/go-swagger/cmd/swagger/commands/internal/cmdtest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

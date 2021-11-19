@@ -18,7 +18,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/go-swagger/go-swagger/generator"
+	"github.com/protodev-site/go-swagger/generator"
 )
 
 type serverOptions struct {
@@ -106,7 +106,7 @@ func (s Server) log(rp string) {
 
 For this generation to compile you need to have some packages in your GOPATH:
 
-	* github.com/go-openapi/runtime
+	* github.com/protodev-site/runtime
 	* `+flagsPackage+`
 
 You can get these now with: go get -u -f %s/...

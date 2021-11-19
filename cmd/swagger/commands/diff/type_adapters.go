@@ -1,7 +1,7 @@
 package diff
 
 import (
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 func forItems(items *spec.Items) *spec.Schema {

@@ -3,7 +3,7 @@ package diff
 import (
 	"fmt"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 // Node is the position od a diff in a spec

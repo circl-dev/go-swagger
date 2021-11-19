@@ -10,8 +10,8 @@ import (
 
 	"errors"
 
-	"github.com/go-openapi/loads"
-	"github.com/go-swagger/go-swagger/cmd/swagger/commands/diff"
+	"github.com/protodev-site/go-swagger/cmd/swagger/commands/diff"
+	"github.com/protodev-site/loads"
 )
 
 // JSONFormat for json

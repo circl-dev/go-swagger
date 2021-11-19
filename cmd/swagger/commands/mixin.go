@@ -6,12 +6,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/go-openapi/analysis"
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/spec"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/protodev-site/analysis"
+	"github.com/protodev-site/loads"
+	"github.com/protodev-site/spec"
 
-	"github.com/go-swagger/go-swagger/generator"
+	"github.com/protodev-site/go-swagger/generator"
 )
 
 const (

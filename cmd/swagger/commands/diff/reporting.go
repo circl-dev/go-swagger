@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 // ArrayType const for array

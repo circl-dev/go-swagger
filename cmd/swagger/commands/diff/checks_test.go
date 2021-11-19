@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
 )
 

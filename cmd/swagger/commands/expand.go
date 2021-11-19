@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/swag"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/protodev-site/spec"
+	"github.com/protodev-site/loads"
 	yaml "gopkg.in/yaml.v2"
 )
 

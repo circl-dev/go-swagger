@@ -3,10 +3,10 @@ package commands
 import (
 	"errors"
 
-	"github.com/go-openapi/analysis"
-	"github.com/go-openapi/loads"
-	"github.com/go-swagger/go-swagger/cmd/swagger/commands/generate"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/protodev-site/analysis"
+	"github.com/protodev-site/go-swagger/cmd/swagger/commands/generate"
+	"github.com/protodev-site/loads"
 )
 
 // FlattenSpec is a command that flattens a swagger document

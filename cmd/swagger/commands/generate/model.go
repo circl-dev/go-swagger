@@ -18,7 +18,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/go-swagger/go-swagger/generator"
+	"github.com/protodev-site/go-swagger/generator"
 )
 
 type modelOptions struct {
@@ -74,7 +74,7 @@ func (m Model) log(rp string) {
 
 For this generation to compile you need to have some packages in your GOPATH:
 
-	* github.com/go-openapi/validate
+	* github.com/protodev-site/validate
 	* github.com/go-openapi/strfmt
 
 You can get these now with: go get -u -f %s/...

@@ -10,11 +10,11 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/runtime/middleware"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/swag"
 	"github.com/gorilla/handlers"
+	"github.com/protodev-site/runtime/middleware"
+	"github.com/protodev-site/spec"
+	"github.com/protodev-site/loads"
 	"github.com/toqueteos/webbrowser"
 )
 

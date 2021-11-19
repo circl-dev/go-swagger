@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/go-openapi/loads"
 	"github.com/go-openapi/strfmt"
-	"github.com/go-openapi/validate"
+	"github.com/protodev-site/validate"
+	"github.com/protodev-site/loads"
 )
 
 const (
