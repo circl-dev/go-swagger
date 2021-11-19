@@ -8,7 +8,7 @@ package uploads
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // UploadFileHandlerFunc turns a function with the right signature into a upload file handler

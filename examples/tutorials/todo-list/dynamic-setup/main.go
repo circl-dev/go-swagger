@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/loads/fmts"
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/middleware"
-	"github.com/go-openapi/runtime/middleware/untyped"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware/untyped"
+	"github.com/protodev-site/loads"
+	"github.com/protodev-site/loads/fmts"
 )
 
 func init() {

@@ -8,9 +8,9 @@ package tasks
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 
-	"github.com/go-swagger/go-swagger/examples/task-tracker/models"
+	"github.com/protodev-site/go-swagger/examples/task-tracker/models"
 )
 
 // GetTaskDetailsOKCode is the HTTP code returned for type GetTaskDetailsOK

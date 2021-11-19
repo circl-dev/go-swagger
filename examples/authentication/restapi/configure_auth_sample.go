@@ -7,12 +7,12 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/middleware"
 
-	"github.com/go-swagger/go-swagger/examples/authentication/models"
-	"github.com/go-swagger/go-swagger/examples/authentication/restapi/operations"
-	"github.com/go-swagger/go-swagger/examples/authentication/restapi/operations/customers"
+	"github.com/protodev-site/go-swagger/examples/authentication/models"
+	"github.com/protodev-site/go-swagger/examples/authentication/restapi/operations"
+	"github.com/protodev-site/go-swagger/examples/authentication/restapi/operations/customers"
 )
 
 //go:generate swagger generate server --target ../../authentication --name AuthSample --spec ../swagger.yml --principal models.Principal

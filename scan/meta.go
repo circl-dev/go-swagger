@@ -23,7 +23,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 func metaTOSSetter(meta *spec.Info) func([]string) {

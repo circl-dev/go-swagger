@@ -9,7 +9,7 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // NewLogoutUserParams creates a new LogoutUserParams object

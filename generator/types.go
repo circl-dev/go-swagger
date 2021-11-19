@@ -21,11 +21,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/swag"
 	"github.com/kr/pretty"
 	"github.com/mitchellh/mapstructure"
+	"github.com/protodev-site/spec"
+	"github.com/protodev-site/loads"
 )
 
 const (

@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/runtime"
 )
 
 // New creates a new operations API client.

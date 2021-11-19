@@ -59,7 +59,7 @@ This will also apply for returning objects that return false and so on.
 
 Originally from issue [#959](https://github.com/go-swagger/go-swagger/issues/959). (*more discussion on edge cases there*).
 
-Related: [go-openapi/validate#19](https://github.com/go-openapi/validate/issues/19).
+Related: [protodev-site/validate#19](https://github.com/protodev-site/validate/issues/19).
 
 ### String parameter in body and query
 _Use-case_: I want to create an operation with string parameter in body, but go-swagger fails while generating.

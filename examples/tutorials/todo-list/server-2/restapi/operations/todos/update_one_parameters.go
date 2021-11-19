@@ -10,13 +10,13 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/go-openapi/validate"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/middleware"
+	"github.com/protodev-site/validate"
 
-	"github.com/go-swagger/go-swagger/examples/tutorials/todo-list/server-2/models"
+	"github.com/protodev-site/go-swagger/examples/tutorials/todo-list/server-2/models"
 )
 
 // NewUpdateOneParams creates a new UpdateOneParams object

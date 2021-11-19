@@ -8,7 +8,7 @@ package store
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 )
 
 // OrderDeleteNoContentCode is the HTTP code returned for type OrderDeleteNoContent

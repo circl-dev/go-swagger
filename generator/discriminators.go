@@ -1,9 +1,9 @@
 package generator
 
 import (
-	"github.com/go-openapi/analysis"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/analysis"
+	"github.com/protodev-site/spec"
 )
 
 type discInfo struct {

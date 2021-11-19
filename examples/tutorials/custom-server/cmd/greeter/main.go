@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/runtime/middleware"
+	"github.com/protodev-site/loads"
 
-	"github.com/go-swagger/go-swagger/examples/tutorials/custom-server/gen/restapi"
-	"github.com/go-swagger/go-swagger/examples/tutorials/custom-server/gen/restapi/operations"
+	"github.com/protodev-site/go-swagger/examples/tutorials/custom-server/gen/restapi"
+	"github.com/protodev-site/go-swagger/examples/tutorials/custom-server/gen/restapi/operations"
 )
 
 var portFlag = flag.Int("port", 3000, "Port to run this service on")

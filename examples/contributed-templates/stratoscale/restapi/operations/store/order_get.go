@@ -8,7 +8,7 @@ package store
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // OrderGetHandlerFunc turns a function with the right signature into a order get handler

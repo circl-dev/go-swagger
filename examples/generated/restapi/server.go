@@ -20,12 +20,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/go-openapi/runtime/flagext"
 	"github.com/go-openapi/swag"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/protodev-site/runtime/flagext"
 	"golang.org/x/net/netutil"
 
-	"github.com/go-swagger/go-swagger/examples/generated/restapi/operations"
+	"github.com/protodev-site/go-swagger/examples/generated/restapi/operations"
 )
 
 const (

@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-openapi/loads/fmts"
-	"github.com/go-openapi/spec"
 	"github.com/pkg/errors"
+	"github.com/protodev-site/spec"
+	"github.com/protodev-site/loads/fmts"
 	"gopkg.in/yaml.v2"
 )
 

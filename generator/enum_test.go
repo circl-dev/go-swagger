@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-openapi/loads"
+	"github.com/protodev-site/loads"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

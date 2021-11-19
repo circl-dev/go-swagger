@@ -22,11 +22,11 @@ import (
 	"sync/atomic"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/middleware"
-	"github.com/go-openapi/runtime/middleware/untyped"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware/untyped"
+	"github.com/protodev-site/loads"
 )
 
 // NewPetstore creates a new petstore api handler

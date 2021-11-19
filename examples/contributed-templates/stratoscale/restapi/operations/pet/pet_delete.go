@@ -8,7 +8,7 @@ package pet
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // PetDeleteHandlerFunc turns a function with the right signature into a pet delete handler

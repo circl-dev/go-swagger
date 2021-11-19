@@ -11,12 +11,12 @@ import (
 	"io"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/go-openapi/validate"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/validate"
 
-	"github.com/go-swagger/go-swagger/examples/task-tracker/models"
+	"github.com/protodev-site/go-swagger/examples/task-tracker/models"
 )
 
 // AddCommentToTaskReader is a Reader for the AddCommentToTask structure.

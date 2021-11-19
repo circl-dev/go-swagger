@@ -6,12 +6,12 @@ The code generation process ends with a message indicating package dependencies 
 
 Basically, here are the required packages:
 - [`github.com/go-openapi/errors`](https://www.github.com/go-openapi/errors)
-- [`github.com/go-openapi/loads`](https://www.github.com/go-openapi/loads)
-- [`github.com/go-openapi/runtime`](https://www.github.com/go-openapi/runtime)
+- [`github.com/protodev-site/loads`](https://www.github.com/protodev-site/loads)
+- [`github.com/protodev-site/runtime`](https://www.github.com/protodev-site/runtime)
 - [`github.com/go-openapi/spec`](https://www.github.com/go-openapi/spec)
 - [`github.com/go-openapi/strfmt`](https://www.github.com/go-openapi/strfmt)
 - [`github.com/go-openapi/swag`](https://www.github.com/go-openapi/swag)
-- [`github.com/go-openapi/validate`](https://www.github.com/go-openapi/validate)
+- [`github.com/protodev-site/validate`](https://www.github.com/protodev-site/validate)
 
 And depending on your generation options, a command line flags handling package:
 - [`github.com/jessevdk/go-flags`](https://www.github.com/jessevdk/go-flags), or
@@ -122,7 +122,7 @@ type Authenticator interface {
     Authenticate(interface{}) (bool, interface{}, error)
 }
 ```
-You may see the schemes currently supported here: https://github.com/go-openapi/runtime/tree/master/security
+You may see the schemes currently supported here: https://github.com/protodev-site/runtime/tree/master/security
 
 Example with Middleware:
 ```golang
@@ -149,7 +149,7 @@ func (o *LifecycleManagerAPI) Context() *middleware.Context {
     return o.context
 }
 ```
-then your middleware could take a context in and use `RouteInfo(request)` like this one: https://github.com/go-openapi/runtime/blob/master/middleware/security.go.
+then your middleware could take a context in and use `RouteInfo(request)` like this one: https://github.com/protodev-site/runtime/blob/master/middleware/security.go.
 
 _Similar use-case_:
 I have some domain objects I need access to in the handlers (db connection, telemetry client, etc).

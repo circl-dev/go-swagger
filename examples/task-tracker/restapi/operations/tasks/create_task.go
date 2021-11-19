@@ -8,7 +8,7 @@ package tasks
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // CreateTaskHandlerFunc turns a function with the right signature into a create task handler

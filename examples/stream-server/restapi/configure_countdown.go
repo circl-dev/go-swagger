@@ -8,11 +8,11 @@ import (
 	"net/http"
 
 	errors "github.com/go-openapi/errors"
-	runtime "github.com/go-openapi/runtime"
-	middleware "github.com/go-openapi/runtime/middleware"
-	"github.com/go-swagger/go-swagger/examples/stream-server/biz"
+	"github.com/protodev-site/go-swagger/examples/stream-server/biz"
+	runtime "github.com/protodev-site/runtime"
+	middleware "github.com/protodev-site/runtime/middleware"
 
-	"github.com/go-swagger/go-swagger/examples/stream-server/restapi/operations"
+	"github.com/protodev-site/go-swagger/examples/stream-server/restapi/operations"
 )
 
 //go:generate swagger generate server --target .. --name Countdown --spec ../swagger.yml

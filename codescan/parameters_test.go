@@ -3,7 +3,7 @@ package codescan
 import (
 	"testing"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

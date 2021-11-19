@@ -8,7 +8,7 @@ package uploads
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 )
 
 // UploadFileOKCode is the HTTP code returned for type UploadFileOK

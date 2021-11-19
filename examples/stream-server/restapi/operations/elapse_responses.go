@@ -9,7 +9,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 )
 
 // ElapseOKCode is the HTTP code returned for type ElapseOK

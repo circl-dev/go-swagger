@@ -12,8 +12,8 @@ import (
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/go-openapi/validate"
-	"github.com/go-swagger/go-swagger/examples/external-types/fred"
+	"github.com/protodev-site/go-swagger/examples/external-types/fred"
+	"github.com/protodev-site/validate"
 )
 
 // MyInterfaceObject This object demonstrates several ways to refer to an external interface.

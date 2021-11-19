@@ -9,8 +9,8 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // NewGetUserByNameParams creates a new GetUserByNameParams object

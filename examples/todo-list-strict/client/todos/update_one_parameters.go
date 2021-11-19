@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime"
-	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/runtime"
+	cr "github.com/protodev-site/runtime/client"
 
-	"github.com/go-swagger/go-swagger/examples/todo-list/models"
+	"github.com/protodev-site/go-swagger/examples/todo-list/models"
 )
 
 // NewUpdateOneParams creates a new UpdateOneParams object

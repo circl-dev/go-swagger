@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/go-openapi/analysis"
-	"github.com/go-openapi/loads"
+	"github.com/protodev-site/analysis"
+	"github.com/protodev-site/loads"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -17,7 +17,7 @@ func TestSpec_Issue1429(t *testing.T) {
 	log.SetOutput(ioutil.Discard)
 	defer log.SetOutput(os.Stdout)
 
-	// acknowledge fix in go-openapi/spec
+	// acknowledge fix in protodev-site/spec
 	specPath := filepath.Join("..", "fixtures", "bugs", "1429", "swagger-1429.yaml")
 	_, err := loads.Spec(specPath)
 	assert.NoError(t, err)
@@ -58,7 +58,7 @@ func TestSpec_Issue1621(t *testing.T) {
 	log.SetOutput(ioutil.Discard)
 	defer log.SetOutput(os.Stdout)
 
-	// acknowledge fix in go-openapi/spec
+	// acknowledge fix in protodev-site/spec
 	specPath := filepath.Join("..", "fixtures", "bugs", "1621", "fixture-1621.yaml")
 	_, err := loads.Spec(specPath)
 	require.NoError(t, err)
@@ -74,7 +74,7 @@ func TestShared_Issue1614(t *testing.T) {
 	log.SetOutput(ioutil.Discard)
 	defer log.SetOutput(os.Stdout)
 
-	// acknowledge fix in go-openapi/spec
+	// acknowledge fix in protodev-site/spec
 	specPath := filepath.Join("..", "fixtures", "bugs", "1614", "gitea.json")
 	_, err := loads.Spec(specPath)
 	require.NoError(t, err)

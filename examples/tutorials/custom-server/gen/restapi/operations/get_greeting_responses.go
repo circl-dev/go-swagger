@@ -8,7 +8,7 @@ package operations
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 )
 
 // GetGreetingOKCode is the HTTP code returned for type GetGreetingOK

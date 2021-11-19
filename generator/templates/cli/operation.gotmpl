@@ -14,9 +14,9 @@ import (
     {{ imports .Imports }}
 
     "github.com/spf13/cobra"
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 	"github.com/go-openapi/swag"
-	httptransport "github.com/go-openapi/runtime/client"
+	httptransport "github.com/protodev-site/runtime/client"
 )
 
 // makeOperation{{pascalize .Package}}{{ pascalize .Name }}Cmd returns a cmd to handle operation {{ camelize .Name }}

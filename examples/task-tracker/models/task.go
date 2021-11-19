@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/go-openapi/validate"
+	"github.com/protodev-site/validate"
 )
 
 // Task a structure describing a complete task.

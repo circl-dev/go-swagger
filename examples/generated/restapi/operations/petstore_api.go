@@ -11,17 +11,17 @@ import (
 	"strings"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/middleware"
-	"github.com/go-openapi/runtime/security"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/middleware"
+	"github.com/protodev-site/runtime/security"
+	"github.com/protodev-site/spec"
+	"github.com/protodev-site/loads"
 
-	"github.com/go-swagger/go-swagger/examples/generated/restapi/operations/pet"
-	"github.com/go-swagger/go-swagger/examples/generated/restapi/operations/store"
-	"github.com/go-swagger/go-swagger/examples/generated/restapi/operations/user"
+	"github.com/protodev-site/go-swagger/examples/generated/restapi/operations/pet"
+	"github.com/protodev-site/go-swagger/examples/generated/restapi/operations/store"
+	"github.com/protodev-site/go-swagger/examples/generated/restapi/operations/user"
 )
 
 // NewPetstoreAPI creates a new Petstore instance

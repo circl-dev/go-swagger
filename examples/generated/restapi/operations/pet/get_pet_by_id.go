@@ -8,7 +8,7 @@ package pet
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // GetPetByIDHandlerFunc turns a function with the right signature into a get pet by Id handler

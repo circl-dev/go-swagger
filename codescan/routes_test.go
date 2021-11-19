@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -108,10 +108,10 @@ func TestRoutesParser(t *testing.T) {
 func TestRoutesParserBody(t *testing.T) {
 	sctx, err := newScanCtx(&Options{
 		Packages: []string{
-			"github.com/go-swagger/go-swagger/fixtures/goparsing/classification",
-			"github.com/go-swagger/go-swagger/fixtures/goparsing/classification/models",
-			"github.com/go-swagger/go-swagger/fixtures/goparsing/classification/operations",
-			"github.com/go-swagger/go-swagger/fixtures/goparsing/classification/operations_body",
+			"github.com/protodev-site/go-swagger/fixtures/goparsing/classification",
+			"github.com/protodev-site/go-swagger/fixtures/goparsing/classification/models",
+			"github.com/protodev-site/go-swagger/fixtures/goparsing/classification/operations",
+			"github.com/protodev-site/go-swagger/fixtures/goparsing/classification/operations_body",
 		},
 	})
 	require.NoError(t, err)

@@ -6,11 +6,11 @@ package client
 // Editing this file might prove futile when you re-run the swagger generate command
 
 import (
-	"github.com/go-openapi/runtime"
-	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/runtime"
+	httptransport "github.com/protodev-site/runtime/client"
 
-	"github.com/go-swagger/go-swagger/examples/todo-list/client/todos"
+	"github.com/protodev-site/go-swagger/examples/todo-list/client/todos"
 )
 
 // Default todo list HTTP client.

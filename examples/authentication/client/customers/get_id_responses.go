@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/runtime"
 
-	"github.com/go-swagger/go-swagger/examples/authentication/models"
+	"github.com/protodev-site/go-swagger/examples/authentication/models"
 )
 
 // GetIDReader is a Reader for the GetID structure.

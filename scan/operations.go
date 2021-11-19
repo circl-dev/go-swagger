@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"go/ast"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 
 	"golang.org/x/tools/go/loader"
 )

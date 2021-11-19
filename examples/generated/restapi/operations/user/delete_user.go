@@ -8,7 +8,7 @@ package user
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // DeleteUserHandlerFunc turns a function with the right signature into a delete user handler

@@ -14,9 +14,9 @@ import (
   "net/http"
 
   "github.com/go-openapi/errors"
-  "github.com/go-openapi/runtime"
-  "github.com/go-openapi/runtime/middleware"
-  "github.com/go-openapi/runtime/security"
+  "github.com/protodev-site/runtime"
+  "github.com/protodev-site/runtime/middleware"
+  "github.com/protodev-site/runtime/security"
 
   {{ imports .DefaultImports }}
   {{ imports .Imports }}
@@ -47,7 +47,7 @@ import (
 // This file auto configures the api backend implementation.
 // {{.ImplementationPackageAlias}} package must already exist.
 // {{.ImplementationPackageAlias}}.New() is implemented by user, and must return an object
-// or interface that implements Handler interface defined below. 
+// or interface that implements Handler interface defined below.
 var Impl Handler = {{.ImplementationPackageAlias}}.New()
 
 // Handler handles all api server backend configurations and requests
@@ -140,7 +140,7 @@ func configureAPI(api *{{.APIPackageAlias}}.{{ pascalize .Name }}API) http.Handl
   api.{{ pascalize .ID }}Auth = func(user string, pass string) ({{ if .PrincipalIsNullable }}*{{ end }}{{.Principal}}, error) {
     return Impl.{{ pascalize .ID }}Auth(user, pass)
   }
-  
+
     {{- else if .IsAPIKeyAuth }}
   // Applies when the "{{ .Name }}" {{ .Source }} is set
   api.{{ pascalize .ID }}Auth = func(token string) ({{ if .PrincipalIsNullable }}*{{ end }}{{.Principal}}, error) {
@@ -162,7 +162,7 @@ func configureAPI(api *{{.APIPackageAlias}}.{{ pascalize .Name }}API) http.Handl
     {{- else }}
       {{- $apipackagealias }}.{{- pascalize .Name }}HandlerFunc(func(params {{ $apipackagealias }}.{{- pascalize .Name }}Params
     {{- end }}
-    {{- if .Authorized}}, principal {{ if .PrincipalIsNullable }}*{{ end }}{{.Principal}}{{end}}) 
+    {{- if .Authorized}}, principal {{ if .PrincipalIsNullable }}*{{ end }}{{.Principal}}{{end}})
       {{- if $.GenOpts.StrictResponders }} {{.Package}}.{{ pascalize .Name }}Responder { {{ else }} middleware.Responder { {{ end }}
       return Impl.{{ pascalize .Name }}(params {{- if .Authorized}}, principal {{ end }})
     })

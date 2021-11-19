@@ -9,8 +9,8 @@ import (
 	"net/http"
 
 	oidc "github.com/coreos/go-oidc"
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/middleware"
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 )

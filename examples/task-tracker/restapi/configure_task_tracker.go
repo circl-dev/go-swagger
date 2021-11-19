@@ -7,11 +7,11 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/middleware"
 
-	"github.com/go-swagger/go-swagger/examples/task-tracker/restapi/operations"
-	"github.com/go-swagger/go-swagger/examples/task-tracker/restapi/operations/tasks"
+	"github.com/protodev-site/go-swagger/examples/task-tracker/restapi/operations"
+	"github.com/protodev-site/go-swagger/examples/task-tracker/restapi/operations/tasks"
 )
 
 //go:generate swagger generate server --target ../../task-tracker --name TaskTracker --spec ../swagger.yml --principal interface{}

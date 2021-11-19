@@ -8,10 +8,10 @@ package todos
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/middleware"
 
-	"github.com/go-swagger/go-swagger/examples/todo-list-strict/models"
+	"github.com/protodev-site/go-swagger/examples/todo-list-strict/models"
 )
 
 // AddOneCreatedCode is the HTTP code returned for type AddOneCreated

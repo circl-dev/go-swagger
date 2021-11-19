@@ -8,7 +8,7 @@ package user
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // CreateUserHandlerFunc turns a function with the right signature into a create user handler

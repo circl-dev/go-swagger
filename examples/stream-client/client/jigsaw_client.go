@@ -6,10 +6,10 @@ package client
 // Editing this file might prove futile when you re-run the swagger generate command
 
 import (
-	"github.com/go-openapi/runtime"
-	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
-	"github.com/go-swagger/go-swagger/examples/stream-client/client/operations"
+	"github.com/protodev-site/go-swagger/examples/stream-client/client/operations"
+	"github.com/protodev-site/runtime"
+	httptransport "github.com/protodev-site/runtime/client"
 )
 
 // Default jigsaw HTTP client.

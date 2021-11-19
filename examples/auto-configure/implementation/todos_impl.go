@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/swag"
-	"github.com/go-swagger/go-swagger/examples/auto-configure/models"
-	"github.com/go-swagger/go-swagger/examples/auto-configure/restapi/operations/todos"
+	"github.com/protodev-site/go-swagger/examples/auto-configure/models"
+	"github.com/protodev-site/go-swagger/examples/auto-configure/restapi/operations/todos"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 type TodosHandlerImpl struct {

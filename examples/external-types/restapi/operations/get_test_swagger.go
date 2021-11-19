@@ -8,7 +8,7 @@ package operations
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // GetTestHandlerFunc turns a function with the right signature into a get test handler

@@ -9,7 +9,7 @@
   - [x] Generate CLI (command line tool) client from a swagger spec
   - [x] Support swagger polymorphism (discriminator with allOf composition)
   - [x] Validate a swagger spec document, with extra rules outlined [here](usage/validate.md)
-  - [x] Validate JSON data against jsonschema (Draft 4), with full $ref support (see: [validate package](https://github.com/go-openapi/validate))
+  - [x] Validate JSON data against jsonschema (Draft 4), with full $ref support (see: [validate package](https://github.com/protodev-site/validate))
     - passes current json schema test suite
   - [x] Generate spec document based on annotated code (package scan)
     - generate meta data (top level swagger properties) from package docs
@@ -21,7 +21,7 @@
     - support composed structs out of several embeds
     - generate parameters from structs
     - support composed structs out of several embeds
-- [x] Middlewares (see: [runtime package](https://github.com/go-openapi/runtime))
+- [x] Middlewares (see: [runtime package](https://github.com/protodev-site/runtime))
   - [x] serve spec
   - [x] routing
   - [x] validation

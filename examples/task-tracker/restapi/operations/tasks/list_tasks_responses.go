@@ -8,10 +8,10 @@ package tasks
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/runtime"
 
-	"github.com/go-swagger/go-swagger/examples/task-tracker/models"
+	"github.com/protodev-site/go-swagger/examples/task-tracker/models"
 )
 
 // ListTasksOKCode is the HTTP code returned for type ListTasksOK

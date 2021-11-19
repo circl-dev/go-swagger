@@ -9,9 +9,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // GetLoginHandlerFunc turns a function with the right signature into a get login handler

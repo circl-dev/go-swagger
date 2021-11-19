@@ -10,10 +10,10 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/strfmt"
-	"github.com/go-openapi/validate"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/middleware"
+	"github.com/protodev-site/validate"
 )
 
 // NewPetListParams creates a new PetListParams object

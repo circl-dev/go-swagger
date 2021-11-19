@@ -138,8 +138,8 @@ The runtime does not automatically detect that fact, we need to override this, l
 ```go
 import (
   ...
-	"github.com/go-openapi/runtime"
-	httptransport "github.com/go-openapi/runtime/client"
+	"github.com/protodev-site/runtime"
+	httptransport "github.com/protodev-site/runtime/client"
 	"github.com/go-swagger/go-swagger/examples/stream-server/client"
   ...
 )

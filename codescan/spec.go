@@ -3,7 +3,7 @@ package codescan
 import (
 	"go/ast"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 func newSpecBuilder(input *spec.Swagger, sc *scanCtx, scanModels bool) *specBuilder {

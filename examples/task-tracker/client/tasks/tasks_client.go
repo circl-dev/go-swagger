@@ -6,8 +6,8 @@ package tasks
 // Editing this file might prove futile when you re-run the swagger generate command
 
 import (
-	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/runtime"
 )
 
 // New creates a new tasks API client.

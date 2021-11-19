@@ -3,7 +3,7 @@ package codescan
 import (
 	"testing"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/require"
 
 	"github.com/stretchr/testify/assert"
@@ -17,10 +17,10 @@ func TestOperationsExpression(t *testing.T) {
 func TestOperationsParser(t *testing.T) {
 	sctx, err := newScanCtx(&Options{
 		Packages: []string{
-			"github.com/go-swagger/go-swagger/fixtures/goparsing/classification",
-			"github.com/go-swagger/go-swagger/fixtures/goparsing/classification/models",
-			"github.com/go-swagger/go-swagger/fixtures/goparsing/classification/operations",
-			"github.com/go-swagger/go-swagger/fixtures/goparsing/classification/operations_annotation",
+			"github.com/protodev-site/go-swagger/fixtures/goparsing/classification",
+			"github.com/protodev-site/go-swagger/fixtures/goparsing/classification/models",
+			"github.com/protodev-site/go-swagger/fixtures/goparsing/classification/operations",
+			"github.com/protodev-site/go-swagger/fixtures/goparsing/classification/operations_annotation",
 		},
 	})
 	require.NoError(t, err)

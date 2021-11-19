@@ -7,11 +7,11 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime"
+	"github.com/protodev-site/runtime/middleware"
 
-	"github.com/go-swagger/go-swagger/examples/tutorials/todo-list/server-2/restapi/operations"
-	"github.com/go-swagger/go-swagger/examples/tutorials/todo-list/server-2/restapi/operations/todos"
+	"github.com/protodev-site/go-swagger/examples/tutorials/todo-list/server-2/restapi/operations"
+	"github.com/protodev-site/go-swagger/examples/tutorials/todo-list/server-2/restapi/operations/todos"
 )
 
 //go:generate swagger generate server --target ../../server-2 --name TodoList --spec ../swagger.yml --principal interface{}

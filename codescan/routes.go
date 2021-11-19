@@ -3,7 +3,7 @@ package codescan
 import (
 	"fmt"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 func opConsumesSetter(op *spec.Operation) func([]string) {

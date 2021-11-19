@@ -28,10 +28,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
-	"github.com/go-openapi/validate"
+	"github.com/protodev-site/spec"
+	"github.com/protodev-site/validate"
+	"github.com/protodev-site/loads"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/tools/go/loader"
 

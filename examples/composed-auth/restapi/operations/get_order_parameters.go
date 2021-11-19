@@ -9,8 +9,8 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // NewGetOrderParams creates a new GetOrderParams object

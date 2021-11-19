@@ -8,9 +8,9 @@ package todos
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 
-	"github.com/go-swagger/go-swagger/examples/todo-list/models"
+	"github.com/protodev-site/go-swagger/examples/todo-list/models"
 )
 
 // FindOKCode is the HTTP code returned for type FindOK

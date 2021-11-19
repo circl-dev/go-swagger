@@ -9,14 +9,14 @@ import (
 	"net/http"
 
 	errors "github.com/go-openapi/errors"
-	runtime "github.com/go-openapi/runtime"
-	middleware "github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/swag"
+	runtime "github.com/protodev-site/runtime"
+	middleware "github.com/protodev-site/runtime/middleware"
 
-	"github.com/go-swagger/go-swagger/examples/oauth2/restapi/operations"
-	"github.com/go-swagger/go-swagger/examples/oauth2/restapi/operations/customers"
+	"github.com/protodev-site/go-swagger/examples/oauth2/restapi/operations"
+	"github.com/protodev-site/go-swagger/examples/oauth2/restapi/operations/customers"
 
-	models "github.com/go-swagger/go-swagger/examples/oauth2/models"
+	models "github.com/protodev-site/go-swagger/examples/oauth2/models"
 )
 
 //go:generate swagger generate server --target .. --name oauthSample --spec ../swagger.yml --principal models.Principal

@@ -29,7 +29,7 @@ The generated models implements:
     - composed and extensible structures use custom marshalers (`allOf`, `additionalProperties`, tuples and polymorphic types)
   - `MarshalBinary()`, `UnmarshalBinary()` interfaces (`encoding/BinaryMarshaler`, `encoding/BinaryUnmarshaler`),
   which may use the fast [`mailru/easyjson`][easy-json] package
-- a validation interface ([`go-openapi/runtime/Validatable`][Validatable]), with a `Validate(strfmt.Registry) error` method
+- a validation interface ([`protodev-site/runtime/Validatable`][Validatable]), with a `Validate(strfmt.Registry) error` method
 
 Validation methods are wired at generation time, and rely mostly on native types: this makes validation faster than a
 dynamic general purpose JSON schema validator.
@@ -49,7 +49,7 @@ type Principal struct {
 ```
 
 > **NOTE**: if you are looking for a **dynamic**, fully JSONSchema compliant, general purpose validator,
-> the [`go-openapi/validate`][validate] package
+> the [`protodev-site/validate`][validate] package
 > is what you want. It is fully tested against the JSONSchema-Test-Suite (supports JSON-schema-draft4).
 > See a working example [here][validate-json].
 
@@ -178,9 +178,9 @@ Recap as of release `>0.26`:
   - `"additionalProperties": false`, `"additionalItems": false` do not invalidate data with extra properties. We trade strictness for speed and
     truncate unwanted properties or items without further validation.
   - the generation flag `--strict-additional-properties` invalidates data with extra properties when `"additionalProperties": false`
-  - when `enum` values cannot be marshalled into their schema, a runtime panic occurs - the `go-openapi/validate` package does not yet detect this situation
+  - when `enum` values cannot be marshalled into their schema, a runtime panic occurs - the `protodev-site/validate` package does not yet detect this situation
   - `patternProperties` and `dependencies`are not supported
-  - use of `additionalItems` requires the `--skip-validation` flag (`go-openapi/validate` is strict regarding Swagger specification)
+  - use of `additionalItems` requires the `--skip-validation` flag (`protodev-site/validate` is strict regarding Swagger specification)
   - JSONSchema defaults to the `"additionalProperties": true`, `go-swagger` defaults to ignoring extra properties. Same for `additionalItems`.
   - array validations (`minItems`, etc.) are not yet supported for tuples, as of v0.15
   - objects with no properties and no additional properties schema have no validation at all (e.g. passing an array is not invalid) (rendered as `interface{}`)
@@ -221,7 +221,7 @@ Swagger types are rendered as follows by `go-swagger`:
 | `string` with other formats | corresponding type exported by `go-openapi/strfmt` |
 
 The `file` type is exposed as a `io.ReadCloser` (or `io.Writer`) interface. The actual implementation in a
-runtime server or client is provided by the [`go-openapi/runtime/File` type][File].
+runtime server or client is provided by the [`protodev-site/runtime/File` type][File].
 
 ### Formatted types
 
@@ -886,7 +886,7 @@ definitions:
         package: github.com/example/models
 ```
 
-Note that the external model must implement the `github.com/go-openapi/runtime.Validatable` interface: it must know how to validate a schema.
+Note that the external model must implement the `github.com/protodev-site/runtime.Validatable` interface: it must know how to validate a schema.
 No model is generated for this definition.
 
 External packages may be imported with an alias, like so:
@@ -959,7 +959,7 @@ This example generates a wrapper type in the package model with a `Validate` met
 import (
 	timeext "time"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 )
@@ -1328,11 +1328,11 @@ type ObjectWithDescription struct {
 
 [swagger]: https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#schema-object
 [strfmt]: https://github.com/go-openapi/strfmt
-[runtime]: https://github.com/go-openapi/runtime
-[File]: https://github.com/go-openapi/runtime/blob/master/file.go#L20
-[Validatable]: https://github.com/go-openapi/runtime/blob/master/interfaces.go#L101
-[validate]: https://github.com/go-openapi/validate
-[validate-json]: https://godoc.org/github.com/go-openapi/validate#ex-AgainstSchema
+[runtime]: https://github.com/protodev-site/runtime
+[File]: https://github.com/protodev-site/runtime/blob/master/file.go#L20
+[Validatable]: https://github.com/protodev-site/runtime/blob/master/interfaces.go#L101
+[validate]: https://github.com/protodev-site/validate
+[validate-json]: https://godoc.org/github.com/protodev-site/validate#ex-AgainstSchema
 [go-doc-model]: https://godoc.org/github.com/go-swagger/go-swagger/examples/generated/models
 [read-only]: https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#fixed-fields-13
 [all-formats]:  https://github.com/go-openapi/strfmt/blob/master/README.md

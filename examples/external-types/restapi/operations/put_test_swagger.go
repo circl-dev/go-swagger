@@ -8,7 +8,7 @@ package operations
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // PutTestHandlerFunc turns a function with the right signature into a put test handler

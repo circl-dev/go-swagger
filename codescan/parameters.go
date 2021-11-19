@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 type paramTypable struct {

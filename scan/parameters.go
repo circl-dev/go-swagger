@@ -21,7 +21,7 @@ import (
 	"go/ast"
 	"strings"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 	"golang.org/x/tools/go/loader"
 )
 

@@ -8,7 +8,7 @@ package todos
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime/middleware"
+	"github.com/protodev-site/runtime/middleware"
 )
 
 // UpdateOneHandlerFunc turns a function with the right signature into a update one handler

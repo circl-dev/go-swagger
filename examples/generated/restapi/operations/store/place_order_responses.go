@@ -8,9 +8,9 @@ package store
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 
-	"github.com/go-swagger/go-swagger/examples/generated/models"
+	"github.com/protodev-site/go-swagger/examples/generated/models"
 )
 
 // PlaceOrderOKCode is the HTTP code returned for type PlaceOrderOK

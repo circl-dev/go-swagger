@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-openapi/analysis"
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/analysis"
+	"github.com/protodev-site/spec"
 )
 
 // GenCommon contains common properties needed across

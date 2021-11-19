@@ -9,13 +9,13 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	errors "github.com/go-openapi/errors"
-	runtime "github.com/go-openapi/runtime"
-	middleware "github.com/go-openapi/runtime/middleware"
+	runtime "github.com/protodev-site/runtime"
+	middleware "github.com/protodev-site/runtime/middleware"
 
-	"github.com/go-swagger/go-swagger/examples/composed-auth/restapi/operations"
+	"github.com/protodev-site/go-swagger/examples/composed-auth/restapi/operations"
 
-	auth "github.com/go-swagger/go-swagger/examples/composed-auth/auth"
-	models "github.com/go-swagger/go-swagger/examples/composed-auth/models"
+	auth "github.com/protodev-site/go-swagger/examples/composed-auth/auth"
+	models "github.com/protodev-site/go-swagger/examples/composed-auth/models"
 )
 
 //go:generate swagger generate server --target .. --name multi-auth-example --spec ../swagger.yml --principal models.Principal

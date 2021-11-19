@@ -8,9 +8,9 @@ package pet
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 
-	"github.com/go-swagger/go-swagger/examples/generated/models"
+	"github.com/protodev-site/go-swagger/examples/generated/models"
 )
 
 // FindPetsByTagsOKCode is the HTTP code returned for type FindPetsByTagsOK

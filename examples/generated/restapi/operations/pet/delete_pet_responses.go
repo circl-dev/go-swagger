@@ -8,7 +8,7 @@ package pet
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 )
 
 // DeletePetBadRequestCode is the HTTP code returned for type DeletePetBadRequest

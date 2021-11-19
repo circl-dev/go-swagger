@@ -9,13 +9,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-openapi/analysis"
 	swaggererrors "github.com/go-openapi/errors"
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/go-openapi/validate"
+	"github.com/protodev-site/analysis"
+	"github.com/protodev-site/loads"
+	"github.com/protodev-site/spec"
+	"github.com/protodev-site/validate"
 	"gopkg.in/yaml.v2"
 )
 
@@ -47,7 +47,7 @@ func (g *GenOpts) validateAndFlattenSpec() (*loads.Document, error) {
 			return nil, errors.New(str)
 		}
 		// TODO(fredbi): due to uncontrolled $ref state in spec, we need to reload the spec atm, or flatten won't
-		// work properly (validate expansion alters the $ref cache in go-openapi/spec)
+		// work properly (validate expansion alters the $ref cache in protodev-site/spec)
 		specDoc, _ = loads.Spec(g.Spec)
 	}
 
@@ -73,7 +73,7 @@ func (g *GenOpts) validateAndFlattenSpec() (*loads.Document, error) {
 	//  - polymorphic types generation may fail with expansion (expand destructs the reuse intent of the $ref in allOf)
 	//  - name duplicates may occur and result in compilation failures
 	//
-	// The right place to fix these shortcomings is go-openapi/analysis.
+	// The right place to fix these shortcomings is protodev-site/analysis.
 
 	g.FlattenOpts.BasePath = specDoc.SpecFilePath()
 	g.FlattenOpts.Spec = analysis.New(specDoc.Spec())

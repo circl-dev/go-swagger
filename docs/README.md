@@ -92,7 +92,7 @@ There is more to that...
 - A [typed JSON Schema implementation](https://goswagger.io/use/model.html), supporting most Draft 4 features
 - Extended string and numeric formats: [strfmt](https://github.com/go-openapi/strfmt)
 - Utilities to work with JSON, convert data types and pointers: [swag](https://github.com/go-openapi/swag)
-- A jsonschema (Draft 4) validator, with full $ref support: [validate](https://github.com/go-openapi/validate)
+- A jsonschema (Draft 4) validator, with full $ref support: [validate](https://github.com/protodev-site/validate)
 - Custom validation interface
 
 ## Installing
@@ -275,9 +275,9 @@ Spec flattening and $ref resolution brought breaking changes in model generation
 You will have to rename some imports:
 
 ```
-github.com/go-swagger/go-swagger/httpkit/validate to github.com/go-openapi/validate
-github.com/go-swagger/go-swagger/httpkit to github.com/go-openapi/runtime
-github.com/naoina/denco to github.com/go-openapi/runtime/middleware/denco
+github.com/go-swagger/go-swagger/httpkit/validate to github.com/protodev-site/validate
+github.com/go-swagger/go-swagger/httpkit to github.com/protodev-site/runtime
+github.com/naoina/denco to github.com/protodev-site/runtime/middleware/denco
 github.com/go-swagger/go-swagger to github.com/go-openapi
 ```
 

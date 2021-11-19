@@ -51,7 +51,7 @@ I want my web app to expose `/swagger-ui`, without using code generation, and wi
 
 **Answer**: there are a few ways you can serve a UI.
 
-Use the middleware provided in the go-openapi/runtime package: https://github.com/go-openapi/runtime/blob/master/middleware/redoc.go
+Use the middleware provided in the protodev-site/runtime package: https://github.com/protodev-site/runtime/blob/master/middleware/redoc.go
 
 Originally from issues [#1029](https://github.com/go-swagger/go-swagger/issues/1029) and [#976](https://github.com/go-swagger/go-swagger/issues/976)
 

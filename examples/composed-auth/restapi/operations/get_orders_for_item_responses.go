@@ -8,9 +8,9 @@ package operations
 import (
 	"net/http"
 
-	"github.com/go-openapi/runtime"
+	"github.com/protodev-site/runtime"
 
-	"github.com/go-swagger/go-swagger/examples/composed-auth/models"
+	"github.com/protodev-site/go-swagger/examples/composed-auth/models"
 )
 
 // GetOrdersForItemOKCode is the HTTP code returned for type GetOrdersForItemOK

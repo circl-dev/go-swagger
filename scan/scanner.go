@@ -29,9 +29,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/go-openapi/loads/fmts"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/spec"
+	"github.com/protodev-site/loads/fmts"
 	"golang.org/x/tools/go/loader"
 	yaml "gopkg.in/yaml.v2"
 )

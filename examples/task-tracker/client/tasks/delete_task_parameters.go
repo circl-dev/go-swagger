@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime"
-	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/runtime"
+	cr "github.com/protodev-site/runtime/client"
 )
 
 // NewDeleteTaskParams creates a new DeleteTaskParams object,

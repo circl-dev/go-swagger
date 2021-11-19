@@ -24,10 +24,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-openapi/analysis"
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/analysis"
+	"github.com/protodev-site/loads"
+	"github.com/protodev-site/spec"
 )
 
 const asMethod = "()"
@@ -357,7 +357,7 @@ func makeGenDefinitionHierarchy(name, pkg, container string, schema spec.Schema,
 		"errors":   "github.com/go-openapi/errors",
 		"runtime":  "github.com/go-openapi/runtime",
 		"swag":     "github.com/go-openapi/swag",
-		"validate": "github.com/go-openapi/validate",
+		"validate": "github.com/protodev-site/validate",
 	}
 
 	return &GenDefinition{
