@@ -10,7 +10,7 @@ import (
 	"net"
 
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 // Incorrect incorrect

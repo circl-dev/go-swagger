@@ -4,9 +4,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/protodev-site/runtime/middleware/untyped"
-	"github.com/protodev-site/loads"
-	"github.com/protodev-site/loads/fmts"
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/loads/fmts"
+	"github.com/circl-dev/runtime/middleware/untyped"
 )
 
 func init() {

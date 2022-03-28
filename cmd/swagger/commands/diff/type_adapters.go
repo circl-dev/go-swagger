@@ -1,7 +1,7 @@
 package diff
 
 import (
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 func forItems(items *spec.Items) *spec.Schema {

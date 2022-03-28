@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/go-swagger/generator"
 	"github.com/go-openapi/swag"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/go-swagger/generator"
 	"github.com/spf13/viper"
 )
 

@@ -9,7 +9,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 // ElapseOKCode is the HTTP code returned for type ElapseOK

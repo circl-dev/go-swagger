@@ -17,8 +17,8 @@ package rest
 import (
 	"net/http"
 
-	"github.com/protodev-site/go-swagger/fixtures/goparsing/petstore/rest/handlers"
-	"github.com/protodev-site/runtime/middleware/denco"
+	"github.com/circl-dev/go-swagger/fixtures/goparsing/petstore/rest/handlers"
+	"github.com/circl-dev/runtime/middleware/denco"
 )
 
 // ServeAPI serves this api

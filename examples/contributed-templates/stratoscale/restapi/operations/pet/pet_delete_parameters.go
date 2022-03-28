@@ -11,7 +11,7 @@ import (
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // NewPetDeleteParams creates a new PetDeleteParams object

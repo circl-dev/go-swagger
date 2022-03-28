@@ -14,10 +14,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/protodev-site/go-swagger/fixtures/bugs/883/gen-fixture-883/client"
-	"github.com/protodev-site/go-swagger/fixtures/bugs/883/gen-fixture-883/client/operations"
-	"github.com/protodev-site/runtime"
-	httptransport "github.com/protodev-site/runtime/client"
+	"github.com/circl-dev/go-swagger/fixtures/bugs/883/gen-fixture-883/client"
+	"github.com/circl-dev/go-swagger/fixtures/bugs/883/gen-fixture-883/client/operations"
+	"github.com/circl-dev/runtime"
+	httptransport "github.com/circl-dev/runtime/client"
 )
 
 // Buffer knows how to UnmarshalText

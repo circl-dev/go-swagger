@@ -8,9 +8,9 @@ package customers
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
-	"github.com/protodev-site/go-swagger/examples/oauth2/models"
+	"github.com/circl-dev/go-swagger/examples/oauth2/models"
 )
 
 // GetIDOKCode is the HTTP code returned for type GetIDOK

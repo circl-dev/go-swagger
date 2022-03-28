@@ -58,7 +58,7 @@ Help Options:
 
 ### Build a client
 
-There is an example client provided at: https://github.com/protodev-site/go-swagger/tree/master/examples/todo-list/client
+There is an example client provided at: https://github.com/circl-dev/go-swagger/tree/master/examples/todo-list/client
 
 To generate a client:
 
@@ -81,7 +81,7 @@ import (
   "github.com/go-openapi/spec"
 
   apiclient "github.com/myproject/client"
-  httptransport "github.com/protodev-site/runtime/client"
+  httptransport "github.com/circl-dev/runtime/client"
 )
 
 func main() {
@@ -96,7 +96,7 @@ func main() {
 ```
 
 The client runtime allows for a number of [configuration
-options](https://godoc.org/github.com/protodev-site/runtime/client#Runtime) to be set.
+options](https://godoc.org/github.com/circl-dev/runtime/client#Runtime) to be set.
 To then use the client, and override the host, with a HTTP transport:
 
 ```go
@@ -109,7 +109,7 @@ import (
   "github.com/go-openapi/spec"
 
   apiclient "github.com/myproject/client"
-  httptransport "github.com/protodev-site/runtime/client"
+  httptransport "github.com/circl-dev/runtime/client"
 )
 
 func main() {
@@ -136,9 +136,9 @@ func main() {
 
 The client supports 3 authentication schemes:
 
-* [Basic Auth](https://godoc.org/github.com/protodev-site/runtime/client#BasicAuth)
-* [API key auth in header or query](https://godoc.org/github.com/protodev-site/runtime/client#APIKeyAuth)
-* [Bearer token header for oauth2](https://godoc.org/github.com/protodev-site/runtime/client#BearerToken)
+* [Basic Auth](https://godoc.org/github.com/circl-dev/runtime/client#BasicAuth)
+* [API key auth in header or query](https://godoc.org/github.com/circl-dev/runtime/client#APIKeyAuth)
+* [Bearer token header for oauth2](https://godoc.org/github.com/circl-dev/runtime/client#BearerToken)
 
 ```go
 import (
@@ -150,7 +150,7 @@ import (
   "github.com/go-openapi/spec"
 
   apiclient "github.com/myproject/client"
-  httptransport "github.com/protodev-site/runtime/client"
+  httptransport "github.com/circl-dev/runtime/client"
 )
 
 func main() {
@@ -191,10 +191,10 @@ import (
   "os"
 
   "github.com/go-openapi/strfmt"
-  "github.com/protodev-site/runtime"
+  "github.com/circl-dev/runtime"
 
   apiclient "github.com/myproject/client"
-  httptransport "github.com/protodev-site/runtime/client"
+  httptransport "github.com/circl-dev/runtime/client"
 )
 
 func main() {

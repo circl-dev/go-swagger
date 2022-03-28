@@ -8,7 +8,7 @@ package pet
 import (
 	"context"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
 	strfmt "github.com/go-openapi/strfmt"
 )

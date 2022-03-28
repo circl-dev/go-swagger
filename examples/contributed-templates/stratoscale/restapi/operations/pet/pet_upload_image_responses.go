@@ -8,9 +8,9 @@ package pet
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
-	"github.com/protodev-site/go-swagger/examples/contributed-templates/stratoscale/models"
+	"github.com/circl-dev/go-swagger/examples/contributed-templates/stratoscale/models"
 )
 
 // PetUploadImageOKCode is the HTTP code returned for type PetUploadImageOK

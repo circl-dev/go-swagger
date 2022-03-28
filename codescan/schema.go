@@ -13,8 +13,8 @@ import (
 
 	"golang.org/x/tools/go/ast/astutil"
 
+	"github.com/circl-dev/spec"
 	"github.com/pkg/errors"
-	"github.com/protodev-site/spec"
 )
 
 func addExtension(ve *spec.VendorExtensible, key string, value interface{}) {

@@ -22,11 +22,11 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/loads"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/spec"
 )
 
 type respSort struct {
@@ -1202,7 +1202,7 @@ func (b *codeGenOpBuilder) analyzeTags() (string, []string, bool) {
 		// override generation with: x-go-operation-tag
 		tag, hasTagOverride = b.Operation.Extensions.GetString(xGoOperationTag)
 		if !hasTagOverride {
-			// TODO(fred): this part should be delegated to some new TagsFor(operation) in protodev-site/analysis
+			// TODO(fred): this part should be delegated to some new TagsFor(operation) in circl-dev/analysis
 			tag = intersected[0]
 			gtags := b.Doc.Spec().Tags
 			for _, gtag := range gtags {

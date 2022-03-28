@@ -4,9 +4,9 @@ import (
 	"crypto/rsa"
 	"io/ioutil"
 
+	models "github.com/circl-dev/go-swagger/examples/composed-auth/models"
 	jwt "github.com/dgrijalva/jwt-go"
 	errors "github.com/go-openapi/errors"
-	models "github.com/protodev-site/go-swagger/examples/composed-auth/models"
 )
 
 const (

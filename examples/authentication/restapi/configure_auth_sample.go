@@ -6,13 +6,13 @@ import (
 	"crypto/tls"
 	"net/http"
 
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
 
-	"github.com/protodev-site/go-swagger/examples/authentication/models"
-	"github.com/protodev-site/go-swagger/examples/authentication/restapi/operations"
-	"github.com/protodev-site/go-swagger/examples/authentication/restapi/operations/customers"
+	"github.com/circl-dev/go-swagger/examples/authentication/models"
+	"github.com/circl-dev/go-swagger/examples/authentication/restapi/operations"
+	"github.com/circl-dev/go-swagger/examples/authentication/restapi/operations/customers"
 )
 
 //go:generate swagger generate server --target ../../authentication --name AuthSample --spec ../swagger.yml --principal models.Principal

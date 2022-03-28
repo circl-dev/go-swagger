@@ -8,7 +8,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/protodev-site/go-swagger/examples/cli/models"
+	"github.com/circl-dev/go-swagger/examples/cli/models"
 	"github.com/spf13/cobra"
 )
 

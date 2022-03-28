@@ -12,12 +12,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/circl-dev/go-swagger/examples/stream-server/client"
+	"github.com/circl-dev/go-swagger/examples/stream-server/client/operations"
+	"github.com/circl-dev/go-swagger/examples/stream-server/models"
+	"github.com/circl-dev/runtime"
+	httptransport "github.com/circl-dev/runtime/client"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/go-swagger/examples/stream-server/client"
-	"github.com/protodev-site/go-swagger/examples/stream-server/client/operations"
-	"github.com/protodev-site/go-swagger/examples/stream-server/models"
-	"github.com/protodev-site/runtime"
-	httptransport "github.com/protodev-site/runtime/client"
 )
 
 func main() {

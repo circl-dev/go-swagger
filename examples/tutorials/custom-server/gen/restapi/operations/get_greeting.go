@@ -8,7 +8,7 @@ package operations
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // GetGreetingHandlerFunc turns a function with the right signature into a get greeting handler

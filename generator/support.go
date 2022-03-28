@@ -25,10 +25,10 @@ import (
 	"path/filepath"
 	"sort"
 
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/loads"
-	"github.com/protodev-site/spec"
 )
 
 // GenerateServer generates a server application

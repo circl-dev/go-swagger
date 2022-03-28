@@ -9,9 +9,9 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
-	"github.com/protodev-site/go-swagger/examples/task-tracker/models"
+	"github.com/circl-dev/go-swagger/examples/task-tracker/models"
 )
 
 // CreateTaskCreatedCode is the HTTP code returned for type CreateTaskCreated

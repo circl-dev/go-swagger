@@ -8,7 +8,7 @@ package user
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 // LoginUserOKCode is the HTTP code returned for type LoginUserOK

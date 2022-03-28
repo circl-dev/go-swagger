@@ -12,8 +12,8 @@ import (
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/runtime/middleware"
-	"github.com/protodev-site/validate"
+	"github.com/circl-dev/runtime/middleware"
+	"github.com/circl-dev/validate"
 )
 
 // AddCommentToTaskHandlerFunc turns a function with the right signature into a add comment to task handler

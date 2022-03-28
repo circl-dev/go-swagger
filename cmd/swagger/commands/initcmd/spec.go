@@ -9,8 +9,8 @@ import (
 
 	"gopkg.in/yaml.v2"
 
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/spec"
 )
 
 // Spec a command struct for initializing a new swagger application.

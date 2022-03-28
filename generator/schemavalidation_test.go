@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/circl-dev/loads"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/loads"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

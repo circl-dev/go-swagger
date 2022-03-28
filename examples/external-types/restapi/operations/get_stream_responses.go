@@ -8,9 +8,9 @@ package operations
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
-	"github.com/protodev-site/go-swagger/examples/external-types/models"
+	"github.com/circl-dev/go-swagger/examples/external-types/models"
 )
 
 /*GetStreamDefault Uses an external definition for an interface (e.g. io.Reader)

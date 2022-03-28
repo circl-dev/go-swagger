@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 // ArrayType const for array

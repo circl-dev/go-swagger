@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/protodev-site/analysis"
+	"github.com/circl-dev/analysis"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

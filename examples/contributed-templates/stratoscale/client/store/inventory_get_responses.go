@@ -10,7 +10,7 @@ import (
 	"io"
 
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 // InventoryGetReader is a Reader for the InventoryGet structure.

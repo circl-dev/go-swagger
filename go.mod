@@ -1,9 +1,14 @@
-module github.com/protodev-site/go-swagger
+module github.com/circl-dev/go-swagger
 
 go 1.17
 
 require (
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
+	github.com/circl-dev/analysis v0.24.0
+	github.com/circl-dev/loads v0.24.0
+	github.com/circl-dev/runtime v0.24.0
+	github.com/circl-dev/spec v0.24.0
+	github.com/circl-dev/validate v0.24.0
 	github.com/coreos/go-oidc v2.2.1+incompatible
 	github.com/davecgh/go-spew v1.1.1
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
@@ -22,11 +27,6 @@ require (
 	github.com/mitchellh/mapstructure v1.4.2
 	github.com/pkg/errors v0.9.1
 	github.com/pquerna/cachecontrol v0.1.0 // indirect
-	github.com/protodev-site/analysis v0.23.0
-	github.com/protodev-site/loads v0.23.0
-	github.com/protodev-site/runtime v0.23.0
-	github.com/protodev-site/spec v0.23.0
-	github.com/protodev-site/validate v0.23.0
 	github.com/rogpeppe/go-internal v1.8.0 // indirect
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5

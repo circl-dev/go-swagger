@@ -137,7 +137,7 @@ Full list of available options [here](../usage/mixin.md).
 
 ### Roadmap
 
-This set of features is essentially provided by the `github.com/protodev-site/analysis` package.
+This set of features is essentially provided by the `github.com/circl-dev/analysis` package.
 Feel free to contribute new features to this repo.
 
 Currently, here is a todo list of improvements planned to the spec preprocessing feature:

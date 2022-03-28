@@ -8,7 +8,7 @@ package uploads
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 // UploadFileOKCode is the HTTP code returned for type UploadFileOK

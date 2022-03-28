@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 // StringType For identifying string types

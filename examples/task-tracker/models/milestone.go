@@ -11,7 +11,7 @@ import (
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/validate"
+	"github.com/circl-dev/validate"
 )
 
 // Milestone A milestone is a particular goal that is important to the project for this issue tracker.

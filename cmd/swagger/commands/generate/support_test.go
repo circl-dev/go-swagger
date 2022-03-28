@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/circl-dev/go-swagger/cmd/swagger/commands/generate"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/protodev-site/go-swagger/cmd/swagger/commands/generate"
 )
 
 func TestGenerateSupport(t *testing.T) {

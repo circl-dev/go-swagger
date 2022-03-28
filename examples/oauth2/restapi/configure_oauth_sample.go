@@ -8,15 +8,15 @@ import (
 	"log"
 	"net/http"
 
+	runtime "github.com/circl-dev/runtime"
+	middleware "github.com/circl-dev/runtime/middleware"
 	errors "github.com/go-openapi/errors"
 	"github.com/go-openapi/swag"
-	runtime "github.com/protodev-site/runtime"
-	middleware "github.com/protodev-site/runtime/middleware"
 
-	"github.com/protodev-site/go-swagger/examples/oauth2/restapi/operations"
-	"github.com/protodev-site/go-swagger/examples/oauth2/restapi/operations/customers"
+	"github.com/circl-dev/go-swagger/examples/oauth2/restapi/operations"
+	"github.com/circl-dev/go-swagger/examples/oauth2/restapi/operations/customers"
 
-	models "github.com/protodev-site/go-swagger/examples/oauth2/models"
+	models "github.com/circl-dev/go-swagger/examples/oauth2/models"
 )
 
 //go:generate swagger generate server --target .. --name oauthSample --spec ../swagger.yml --principal models.Principal

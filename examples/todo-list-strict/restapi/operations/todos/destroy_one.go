@@ -8,7 +8,7 @@ package todos
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // DestroyOneHandlerFunc turns a function with the right signature into a destroy one handler

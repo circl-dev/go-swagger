@@ -12,12 +12,12 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/protodev-site/go-swagger/examples/cli/client"
+	"github.com/circl-dev/go-swagger/examples/cli/client"
 
 	"github.com/go-openapi/strfmt"
 	homedir "github.com/mitchellh/go-homedir"
-	"github.com/protodev-site/runtime"
-	httptransport "github.com/protodev-site/runtime/client"
+	"github.com/circl-dev/runtime"
+	httptransport "github.com/circl-dev/runtime/client"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

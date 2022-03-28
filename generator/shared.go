@@ -29,11 +29,11 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/loads"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/spec"
 )
 
 //go:generate go-bindata -mode 420 -modtime 1482416923 -pkg=generator -ignore=.*\.sw? -ignore=.*\.md ./templates/...

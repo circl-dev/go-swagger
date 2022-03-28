@@ -9,14 +9,14 @@ import (
 	"sync"
 	"sync/atomic"
 
+	runtime "github.com/circl-dev/runtime"
+	middleware "github.com/circl-dev/runtime/middleware"
 	errors "github.com/go-openapi/errors"
 	"github.com/go-openapi/swag"
-	runtime "github.com/protodev-site/runtime"
-	middleware "github.com/protodev-site/runtime/middleware"
 
-	"github.com/protodev-site/go-swagger/examples/tutorials/todo-list/server-complete/models"
-	"github.com/protodev-site/go-swagger/examples/tutorials/todo-list/server-complete/restapi/operations"
-	"github.com/protodev-site/go-swagger/examples/tutorials/todo-list/server-complete/restapi/operations/todos"
+	"github.com/circl-dev/go-swagger/examples/tutorials/todo-list/server-complete/models"
+	"github.com/circl-dev/go-swagger/examples/tutorials/todo-list/server-complete/restapi/operations"
+	"github.com/circl-dev/go-swagger/examples/tutorials/todo-list/server-complete/restapi/operations/todos"
 )
 
 // This file is safe to edit. Once it exists it will not be overwritten

@@ -22,10 +22,10 @@ import (
 
 	"github.com/go-openapi/swag"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/protodev-site/runtime/flagext"
+	"github.com/circl-dev/runtime/flagext"
 	"golang.org/x/net/netutil"
 
-	"github.com/protodev-site/go-swagger/examples/oauth2/restapi/operations"
+	"github.com/circl-dev/go-swagger/examples/oauth2/restapi/operations"
 )
 
 const (

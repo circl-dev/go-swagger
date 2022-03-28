@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/protodev-site/go-swagger/fixtures/bugs/1943/restapi"
-	"github.com/protodev-site/go-swagger/fixtures/bugs/1943/restapi/operations"
-	"github.com/protodev-site/loads"
+	"github.com/circl-dev/go-swagger/fixtures/bugs/1943/restapi"
+	"github.com/circl-dev/go-swagger/fixtures/bugs/1943/restapi/operations"
+	"github.com/circl-dev/loads"
 )
 
 func Test_DataRace(t *testing.T) {

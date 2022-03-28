@@ -15,9 +15,9 @@ import (
 
     "github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 	"github.com/go-openapi/swag"
-	httptransport "github.com/protodev-site/runtime/client"
+	httptransport "github.com/circl-dev/runtime/client"
 	homedir "github.com/mitchellh/go-homedir"
 )
 
@@ -202,7 +202,7 @@ func makeAuthInfoWriter(cmd *cobra.Command) (runtime.ClientAuthInfoWriter, error
 	{{- if .IsOAuth2 }}
 	if viper.IsSet("oauth2-token") {
 		// oauth2 workflow for generated CLI is not ideal.
-		// If you have suggestions on how to support it, raise an issue here: https://github.com/protodev-site/go-swagger/issues
+		// If you have suggestions on how to support it, raise an issue here: https://github.com/circl-dev/go-swagger/issues
 		// This will be added to header: "Authorization: Bearer {oauth2-token value}"
 		token := viper.GetString("oauth2-token")
 		auths = append(auths, httptransport.BearerToken(token))

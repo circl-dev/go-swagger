@@ -24,10 +24,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/loads"
-	"github.com/protodev-site/spec"
 )
 
 const asMethod = "()"
@@ -355,9 +355,9 @@ func makeGenDefinitionHierarchy(name, pkg, container string, schema spec.Schema,
 
 	defaultImports := map[string]string{
 		"errors":   "github.com/go-openapi/errors",
-		"runtime":  "github.com/protodev-site/runtime",
+		"runtime":  "github.com/circl-dev/runtime",
 		"swag":     "github.com/go-openapi/swag",
-		"validate": "github.com/protodev-site/validate",
+		"validate": "github.com/circl-dev/validate",
 	}
 
 	return &GenDefinition{

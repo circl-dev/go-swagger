@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/spec"
 )
 
 // GenCommon contains common properties needed across

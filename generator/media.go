@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/circl-dev/runtime"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/runtime"
 )
 
 const jsonSerializer = "json"

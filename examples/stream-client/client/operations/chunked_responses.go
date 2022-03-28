@@ -10,7 +10,7 @@ import (
 	"io"
 
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 // ChunkedReader is a Reader for the Chunked structure.

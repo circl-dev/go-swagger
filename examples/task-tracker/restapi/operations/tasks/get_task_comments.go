@@ -8,7 +8,7 @@ package tasks
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // GetTaskCommentsHandlerFunc turns a function with the right signature into a get task comments handler

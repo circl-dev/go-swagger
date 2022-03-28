@@ -8,7 +8,7 @@ package pet
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // PetUploadImageHandlerFunc turns a function with the right signature into a pet upload image handler

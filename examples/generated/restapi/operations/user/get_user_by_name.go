@@ -8,7 +8,7 @@ package user
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // GetUserByNameHandlerFunc turns a function with the right signature into a get user by name handler

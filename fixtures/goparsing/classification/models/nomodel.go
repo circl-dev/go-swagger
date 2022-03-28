@@ -17,8 +17,8 @@ package models
 import (
 	"time"
 
+	"github.com/circl-dev/go-swagger/fixtures/goparsing/classification/transitive/mods"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/go-swagger/fixtures/goparsing/classification/transitive/mods"
 )
 
 // NoModel is a struct without an annotation.

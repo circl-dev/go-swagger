@@ -6,12 +6,12 @@ import (
 	"crypto/tls"
 	"net/http"
 
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
 
-	"github.com/protodev-site/go-swagger/examples/task-tracker/restapi/operations"
-	"github.com/protodev-site/go-swagger/examples/task-tracker/restapi/operations/tasks"
+	"github.com/circl-dev/go-swagger/examples/task-tracker/restapi/operations"
+	"github.com/circl-dev/go-swagger/examples/task-tracker/restapi/operations/tasks"
 )
 
 //go:generate swagger generate server --target ../../task-tracker --name TaskTracker --spec ../swagger.yml --principal interface{}

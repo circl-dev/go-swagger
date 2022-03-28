@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/protodev-site/go-swagger/cmd/swagger/commands/internal/cmdtest"
-	"github.com/protodev-site/loads"
+	"github.com/circl-dev/go-swagger/cmd/swagger/commands/internal/cmdtest"
+	"github.com/circl-dev/loads"
 	"github.com/stretchr/testify/require"
 )
 

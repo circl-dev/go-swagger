@@ -18,9 +18,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/protodev-site/go-swagger/fixtures/goparsing/petstore/enums"
-	"github.com/protodev-site/go-swagger/fixtures/goparsing/petstore/models"
-	"github.com/protodev-site/runtime/middleware/denco"
+	"github.com/circl-dev/go-swagger/fixtures/goparsing/petstore/enums"
+	"github.com/circl-dev/go-swagger/fixtures/goparsing/petstore/models"
+	"github.com/circl-dev/runtime/middleware/denco"
 )
 
 // A GenericError is the default error message that is generated.

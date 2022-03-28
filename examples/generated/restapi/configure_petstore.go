@@ -6,14 +6,14 @@ import (
 	"crypto/tls"
 	"net/http"
 
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
 
-	"github.com/protodev-site/go-swagger/examples/generated/restapi/operations"
-	"github.com/protodev-site/go-swagger/examples/generated/restapi/operations/pet"
-	"github.com/protodev-site/go-swagger/examples/generated/restapi/operations/store"
-	"github.com/protodev-site/go-swagger/examples/generated/restapi/operations/user"
+	"github.com/circl-dev/go-swagger/examples/generated/restapi/operations"
+	"github.com/circl-dev/go-swagger/examples/generated/restapi/operations/pet"
+	"github.com/circl-dev/go-swagger/examples/generated/restapi/operations/store"
+	"github.com/circl-dev/go-swagger/examples/generated/restapi/operations/user"
 )
 
 //go:generate swagger generate server --target ../../generated --name Petstore --spec ../swagger-petstore.json --principal interface{}

@@ -8,7 +8,7 @@ package store
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // InventoryGetHandlerFunc turns a function with the right signature into a inventory get handler

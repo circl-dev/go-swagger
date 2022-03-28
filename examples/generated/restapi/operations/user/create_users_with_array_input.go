@@ -8,7 +8,7 @@ package user
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // CreateUsersWithArrayInputHandlerFunc turns a function with the right signature into a create users with array input handler

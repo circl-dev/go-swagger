@@ -3,7 +3,7 @@ package implementation
 import (
 	"sync"
 
-	"github.com/protodev-site/go-swagger/examples/auto-configure/models"
+	"github.com/circl-dev/go-swagger/examples/auto-configure/models"
 )
 
 // HandlerImpl implements all required configuration and api handling

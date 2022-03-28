@@ -8,9 +8,9 @@ package todos
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
-	"github.com/protodev-site/go-swagger/examples/todo-list/models"
+	"github.com/circl-dev/go-swagger/examples/todo-list/models"
 )
 
 // UpdateOneOKCode is the HTTP code returned for type UpdateOneOK

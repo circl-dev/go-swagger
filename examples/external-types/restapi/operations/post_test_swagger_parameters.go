@@ -9,10 +9,10 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
 
-	custom "github.com/protodev-site/go-swagger/examples/external-types/fred"
+	custom "github.com/circl-dev/go-swagger/examples/external-types/fred"
 )
 
 // NewPostTestParams creates a new PostTestParams object

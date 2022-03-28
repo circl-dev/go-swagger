@@ -13,11 +13,11 @@ import (
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
-	"github.com/protodev-site/runtime/security"
-	"github.com/protodev-site/spec"
-	"github.com/protodev-site/loads"
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
+	"github.com/circl-dev/runtime/security"
+	"github.com/circl-dev/spec"
+	"github.com/circl-dev/loads"
 )
 
 // NewGreeterAPI creates a new Greeter instance

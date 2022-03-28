@@ -10,9 +10,9 @@ import (
 	"io"
 
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
-	"github.com/protodev-site/go-swagger/examples/todo-list/models"
+	"github.com/circl-dev/go-swagger/examples/todo-list/models"
 )
 
 // FindReader is a Reader for the Find structure.

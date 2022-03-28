@@ -8,9 +8,9 @@ package operations
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
-	custom "github.com/protodev-site/go-swagger/examples/external-types/fred"
+	custom "github.com/circl-dev/go-swagger/examples/external-types/fred"
 )
 
 /*PutTestDefault A map of an aliased external package. Now the alias is "custom".

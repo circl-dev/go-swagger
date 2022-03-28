@@ -21,9 +21,9 @@ You'd have to do by hand everything the code generator does for you. Every time 
 The use case for the server side is covered but not the client side.
 
 That being said, you might find this test useful as an example:
-[runtime test](https://github.com/protodev-site/runtime/blob/master/client/runtime_test.go#L144-L188)
+[runtime test](https://github.com/circl-dev/runtime/blob/master/client/runtime_test.go#L144-L188)
 
-Originally from issue [#996](https://github.com/protodev-site/go-swagger/issues/996).
+Originally from issue [#996](https://github.com/circl-dev/go-swagger/issues/996).
 
 ### Can we set a User-Agent header?
 _Use-Case_: we would like to be able to set an arbitrary user-agent header either at client generation time or at compile time.
@@ -35,13 +35,13 @@ _Use-Case_: we would like to be able to set an arbitrary user-agent header eithe
 **Answer**: here is the outline of how to achieve that.
 
 - You can use a custom transport which allows you to set the user agent.
-https://github.com/protodev-site/runtime/blob/master/client/runtime.go#L132
+https://github.com/circl-dev/runtime/blob/master/client/runtime.go#L132
 - Then you can configure it with this constructor method
-https://github.com/protodev-site/go-swagger/blob/master/examples/todo-list/client/todo_list_client.go#L52
+https://github.com/circl-dev/go-swagger/blob/master/examples/todo-list/client/todo_list_client.go#L52
 - You can also configure that runtime with a `stdlib http.Client`
-https://github.com/protodev-site/runtime/blob/master/client/runtime.go#L167
+https://github.com/circl-dev/runtime/blob/master/client/runtime.go#L167
 - You can extend intercept a http request with the `http.RoundTripper interface`. https://godoc.org/net/http#RoundTripper
-which you can set here: https://github.com/protodev-site/runtime/blob/master/client/runtime.go#L116
+which you can set here: https://github.com/circl-dev/runtime/blob/master/client/runtime.go#L116
 - so for the client here:
 
 ```golang
@@ -58,9 +58,9 @@ reading and modifying the `*http.Request` before its sent?
 
 >The roundtripper is the last thing executed before sending the request on the wire.
 
-See also issue [#935](https://github.com/protodev-site/go-swagger/issues/935).
+See also issue [#935](https://github.com/circl-dev/go-swagger/issues/935).
 
-Originally from issue [#911](https://github.com/protodev-site/go-swagger/issues/911).
+Originally from issue [#911](https://github.com/circl-dev/go-swagger/issues/911).
 
 -------------
 

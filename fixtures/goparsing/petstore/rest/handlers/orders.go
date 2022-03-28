@@ -17,8 +17,8 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/protodev-site/go-swagger/fixtures/goparsing/petstore/models"
-	"github.com/protodev-site/runtime/middleware/denco"
+	"github.com/circl-dev/go-swagger/fixtures/goparsing/petstore/models"
+	"github.com/circl-dev/runtime/middleware/denco"
 )
 
 // An OrderID parameter model.

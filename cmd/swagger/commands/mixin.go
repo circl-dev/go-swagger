@@ -6,12 +6,12 @@ import (
 	"log"
 	"os"
 
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/spec"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/loads"
-	"github.com/protodev-site/spec"
 
-	"github.com/protodev-site/go-swagger/generator"
+	"github.com/circl-dev/go-swagger/generator"
 )
 
 const (

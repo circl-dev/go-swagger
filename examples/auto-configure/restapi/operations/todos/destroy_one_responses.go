@@ -8,9 +8,9 @@ package todos
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
-	"github.com/protodev-site/go-swagger/examples/auto-configure/models"
+	"github.com/circl-dev/go-swagger/examples/auto-configure/models"
 )
 
 // DestroyOneNoContentCode is the HTTP code returned for type DestroyOneNoContent

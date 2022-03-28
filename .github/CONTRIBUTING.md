@@ -121,6 +121,6 @@ using your real name (sorry, no pseudonyms or anonymous contributions.)
 
 You can add the sign off when creating the git commit via `git commit -s`.
 
-## Issue Triage [![Open Source Helpers](https://www.codetriage.com/protodev-site/go-swagger/badges/users.svg)](https://www.codetriage.com/protodev-site/go-swagger)
+## Issue Triage [![Open Source Helpers](https://www.codetriage.com/circl-dev/go-swagger/badges/users.svg)](https://www.codetriage.com/circl-dev/go-swagger)
 
-You can triage issues which may include reproducing bug reports or asking for vital information, such as version numbers or reproduction instructions. If you would like to start triaging issues, one easy way to get started is to [subscribe to go-swagger on CodeTriage](https://www.codetriage.com/protodev-site/go-swagger).
+You can triage issues which may include reproducing bug reports or asking for vital information, such as version numbers or reproduction instructions. If you would like to start triaging issues, one easy way to get started is to [subscribe to go-swagger on CodeTriage](https://www.codetriage.com/circl-dev/go-swagger).

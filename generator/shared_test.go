@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/loads"
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/loads"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -643,7 +643,7 @@ func TestDefaultImports(t *testing.T) {
 			Title: "defaults",
 			Opts:  &GenOpts{},
 			Expected: map[string]string{
-				"models": "github.com/protodev-site/go-swagger/generator/models",
+				"models": "github.com/circl-dev/go-swagger/generator/models",
 			},
 		},
 		{
@@ -652,8 +652,8 @@ func TestDefaultImports(t *testing.T) {
 				Principal: "ext.Principal",
 			},
 			Expected: map[string]string{
-				"ext":    "github.com/protodev-site/go-swagger/generator/ext",
-				"models": "github.com/protodev-site/go-swagger/generator/models",
+				"ext":    "github.com/circl-dev/go-swagger/generator/ext",
+				"models": "github.com/circl-dev/go-swagger/generator/models",
 			},
 		},
 		{
@@ -663,7 +663,7 @@ func TestDefaultImports(t *testing.T) {
 			},
 			Expected: map[string]string{
 				"identity": "github.com/myproject/identity",
-				"models":   "github.com/protodev-site/go-swagger/generator/models",
+				"models":   "github.com/circl-dev/go-swagger/generator/models",
 			},
 		},
 		{
@@ -673,7 +673,7 @@ func TestDefaultImports(t *testing.T) {
 			},
 			Expected: map[string]string{
 				"auth":   "github.com/myproject/middleware",
-				"models": "github.com/protodev-site/go-swagger/generator/models",
+				"models": "github.com/circl-dev/go-swagger/generator/models",
 			},
 		},
 		{
@@ -683,7 +683,7 @@ func TestDefaultImports(t *testing.T) {
 			},
 			Expected: map[string]string{
 				"auth":   "github.com/myproject/principal",
-				"models": "github.com/protodev-site/go-swagger/generator/models",
+				"models": "github.com/circl-dev/go-swagger/generator/models",
 			},
 		},
 		{
@@ -692,7 +692,7 @@ func TestDefaultImports(t *testing.T) {
 				ModelPackage: "target/bespoke",
 			},
 			Expected: map[string]string{
-				"bespoke": "github.com/protodev-site/go-swagger/generator/target/bespoke",
+				"bespoke": "github.com/circl-dev/go-swagger/generator/target/bespoke",
 			},
 		},
 		{
@@ -712,8 +712,8 @@ func TestDefaultImports(t *testing.T) {
 				ModelPackage: "target/bespoke",
 			},
 			Expected: map[string]string{
-				"bespoke": "github.com/protodev-site/go-swagger/generator/target/bespoke",
-				"auth":    "github.com/protodev-site/go-swagger/generator/auth",
+				"bespoke": "github.com/circl-dev/go-swagger/generator/target/bespoke",
+				"auth":    "github.com/circl-dev/go-swagger/generator/auth",
 			},
 		},
 		{
@@ -723,7 +723,7 @@ func TestDefaultImports(t *testing.T) {
 				ModelPackage: "target/bespoke",
 			},
 			Expected: map[string]string{
-				"bespoke": "github.com/protodev-site/go-swagger/generator/target/bespoke",
+				"bespoke": "github.com/circl-dev/go-swagger/generator/target/bespoke",
 			},
 		},
 		{
@@ -733,7 +733,7 @@ func TestDefaultImports(t *testing.T) {
 				ModelPackage: "target/bespoke",
 			},
 			Expected: map[string]string{
-				"bespoke": "github.com/protodev-site/go-swagger/generator/target/bespoke",
+				"bespoke": "github.com/circl-dev/go-swagger/generator/target/bespoke",
 			},
 		},
 		{
@@ -744,7 +744,7 @@ func TestDefaultImports(t *testing.T) {
 				ModelPackage: "target/models",
 			},
 			Expected: map[string]string{
-				"models": "github.com/protodev-site/go-swagger/generator/target/models",
+				"models": "github.com/circl-dev/go-swagger/generator/target/models",
 				"auth":   "target/auth",
 			},
 		},
@@ -764,7 +764,7 @@ func TestShared_Issue2113(t *testing.T) {
 	log.SetOutput(ioutil.Discard)
 	defer log.SetOutput(os.Stdout)
 
-	// acknowledge fix in protodev-site/spec
+	// acknowledge fix in circl-dev/spec
 	specPath := filepath.Join("..", "fixtures", "bugs", "2113", "base.yaml")
 	_, err := loads.Spec(specPath)
 	require.NoError(t, err)

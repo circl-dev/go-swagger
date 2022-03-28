@@ -8,7 +8,7 @@ package tasks
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // ListTasksHandlerFunc turns a function with the right signature into a list tasks handler

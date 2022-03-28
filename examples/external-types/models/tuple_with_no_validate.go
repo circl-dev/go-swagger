@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/validate"
+	"github.com/circl-dev/validate"
 )
 
 // TupleWithNoValidate A tuple of NoValidateExternal external types.

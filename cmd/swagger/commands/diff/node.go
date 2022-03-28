@@ -3,7 +3,7 @@ package diff
 import (
 	"fmt"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 // Node is the position od a diff in a spec

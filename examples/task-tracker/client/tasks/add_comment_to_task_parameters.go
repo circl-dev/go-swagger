@@ -13,8 +13,8 @@ import (
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/runtime"
-	cr "github.com/protodev-site/runtime/client"
+	"github.com/circl-dev/runtime"
+	cr "github.com/circl-dev/runtime/client"
 )
 
 // NewAddCommentToTaskParams creates a new AddCommentToTaskParams object,

@@ -30,7 +30,7 @@ import (
 
 	"golang.org/x/tools/go/loader"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 func addExtension(ve *spec.VendorExtensible, key string, value interface{}) {
@@ -967,7 +967,7 @@ func (scp *schemaParser) packageForSelector(gofile *ast.File, expr ast.Expr) (*l
 			return pkg, nil
 		}
 		// TODO: I must admit this made me cry, it's not even a great solution.
-		pkg = scp.program.Package("github.com/protodev-site/go-swagger/vendor/" + selPath)
+		pkg = scp.program.Package("github.com/circl-dev/go-swagger/vendor/" + selPath)
 		if pkg != nil {
 			return pkg, nil
 		}

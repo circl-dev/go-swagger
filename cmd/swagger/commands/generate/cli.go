@@ -1,6 +1,6 @@
 package generate
 
-import "github.com/protodev-site/go-swagger/generator"
+import "github.com/circl-dev/go-swagger/generator"
 
 type Cli struct {
 	// generate a cli includes all client code

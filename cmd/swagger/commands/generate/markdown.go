@@ -1,8 +1,8 @@
 package generate
 
 import (
+	"github.com/circl-dev/go-swagger/generator"
 	"github.com/jessevdk/go-flags"
-	"github.com/protodev-site/go-swagger/generator"
 )
 
 // Markdown generates a markdown representation of the spec

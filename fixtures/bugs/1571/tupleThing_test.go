@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/circl-dev/go-swagger/fixtures/bugs/1571/gen-fixture-simple-tuple-minimal/models"
+	"github.com/circl-dev/spec"
+	"github.com/circl-dev/validate"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/go-swagger/fixtures/bugs/1571/gen-fixture-simple-tuple-minimal/models"
-	"github.com/protodev-site/spec"
-	"github.com/protodev-site/validate"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -11,8 +11,8 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // UploadFileMaxParseMemory sets the maximum size in bytes for

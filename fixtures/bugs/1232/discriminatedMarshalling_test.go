@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/circl-dev/go-swagger/fixtures/bugs/1232/gen-fixture-1232/models"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/go-swagger/fixtures/bugs/1232/gen-fixture-1232/models"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -17,7 +17,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime/middleware/denco"
+	"github.com/circl-dev/runtime/middleware/denco"
 )
 
 // GetUsers handles the list users operation

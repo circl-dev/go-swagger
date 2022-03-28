@@ -8,9 +8,9 @@ package tasks
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
-	"github.com/protodev-site/go-swagger/examples/task-tracker/models"
+	"github.com/circl-dev/go-swagger/examples/task-tracker/models"
 )
 
 // DeleteTaskNoContentCode is the HTTP code returned for type DeleteTaskNoContent

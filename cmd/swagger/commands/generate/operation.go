@@ -18,7 +18,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/protodev-site/go-swagger/generator"
+	"github.com/circl-dev/go-swagger/generator"
 )
 
 type operationOptions struct {
@@ -89,7 +89,7 @@ func (o Operation) log(rp string) {
 
 For this generation to compile you need to have some packages in your GOPATH:
 
-	* github.com/protodev-site/runtime
+	* github.com/circl-dev/runtime
 
 You can get these now with: go get -u -f %s/...
 `, rp)

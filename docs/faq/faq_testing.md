@@ -13,7 +13,7 @@ At the moment, the toolkit does not generate testing tools. You may be intereste
 
 We acknowledge that  API testing is an important use-case. However, it is not yet supported. Pull requests to move on forward in that direction are welcome.
 
-Originally from issue [#787](https://github.com/protodev-site/go-swagger/issues/787).
+Originally from issue [#787](https://github.com/circl-dev/go-swagger/issues/787).
 
 ### Using httptest
 _Use-Case_: I would like to use httptest for testing my handlers.
@@ -25,7 +25,7 @@ Go-swagger provides a Server, but not a configured handler.
 package restapi
 
 import (
-    loads "github.com/protodev-site/loads"
+    loads "github.com/circl-dev/loads"
     "github.com/pim/pam/poum/restapi/operations"
     "net/http"
 )
@@ -105,7 +105,7 @@ todos.AddOneHandlerFunc(func(params todos.AddOneParams) middleware.Responder {
 ```
 To test this second function we don't need to use the httptest package, you can assume that that part of the code works. So all you have to test is whether or not you get the right return types for a given set of parameters.
 
-Originally from issue [#719](https://github.com/protodev-site/go-swagger/issues/719).
+Originally from issue [#719](https://github.com/circl-dev/go-swagger/issues/719).
 
 -------------------
 

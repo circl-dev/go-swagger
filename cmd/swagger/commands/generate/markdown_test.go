@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/circl-dev/go-swagger/cmd/swagger/commands/generate"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/protodev-site/go-swagger/cmd/swagger/commands/generate"
 )
 
 func TestMarkdown(t *testing.T) {

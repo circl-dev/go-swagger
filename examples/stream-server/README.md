@@ -138,9 +138,9 @@ The runtime does not automatically detect that fact, we need to override this, l
 ```go
 import (
   ...
-	"github.com/protodev-site/runtime"
-	httptransport "github.com/protodev-site/runtime/client"
-	"github.com/protodev-site/go-swagger/examples/stream-server/client"
+	"github.com/circl-dev/runtime"
+	httptransport "github.com/circl-dev/runtime/client"
+	"github.com/circl-dev/go-swagger/examples/stream-server/client"
   ...
 )
 

@@ -8,7 +8,7 @@ package tasks
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // UploadTaskFileHandlerFunc turns a function with the right signature into a upload task file handler

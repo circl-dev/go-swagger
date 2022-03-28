@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 func getTypeFromSchema(schema *spec.Schema) (typeName string, isArray bool) {

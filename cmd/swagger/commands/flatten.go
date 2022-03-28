@@ -3,10 +3,10 @@ package commands
 import (
 	"errors"
 
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/go-swagger/cmd/swagger/commands/generate"
+	"github.com/circl-dev/loads"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/go-swagger/cmd/swagger/commands/generate"
-	"github.com/protodev-site/loads"
 )
 
 // FlattenSpec is a command that flattens a swagger document

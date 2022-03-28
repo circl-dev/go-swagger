@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 type paramTypable struct {

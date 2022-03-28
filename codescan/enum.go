@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 func getEnumBasicLitValue(basicLit *ast.BasicLit) interface{} {

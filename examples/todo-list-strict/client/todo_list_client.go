@@ -7,10 +7,10 @@ package client
 
 import (
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/runtime"
-	httptransport "github.com/protodev-site/runtime/client"
+	"github.com/circl-dev/runtime"
+	httptransport "github.com/circl-dev/runtime/client"
 
-	"github.com/protodev-site/go-swagger/examples/todo-list/client/todos"
+	"github.com/circl-dev/go-swagger/examples/todo-list/client/todos"
 )
 
 // Default todo list HTTP client.

@@ -8,9 +8,9 @@ package customers
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 
-	"github.com/protodev-site/go-swagger/examples/authentication/models"
+	"github.com/circl-dev/go-swagger/examples/authentication/models"
 )
 
 // GetIDHandlerFunc turns a function with the right signature into a get Id handler

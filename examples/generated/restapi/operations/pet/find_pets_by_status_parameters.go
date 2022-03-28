@@ -10,8 +10,8 @@ import (
 
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // NewFindPetsByStatusParams creates a new FindPetsByStatusParams object

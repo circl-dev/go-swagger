@@ -6,11 +6,11 @@ import (
 	"crypto/tls"
 	"net/http"
 
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
 
-	"github.com/protodev-site/go-swagger/examples/tutorials/custom-server/gen/restapi/operations"
+	"github.com/circl-dev/go-swagger/examples/tutorials/custom-server/gen/restapi/operations"
 )
 
 //go:generate swagger generate server --target ../../gen --name Greeter --spec ../../swagger/swagger.yml --principal interface{} --exclude-main

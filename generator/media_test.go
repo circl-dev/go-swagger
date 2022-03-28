@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

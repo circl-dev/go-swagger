@@ -9,11 +9,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/protodev-site/go-swagger/codescan"
+	"github.com/circl-dev/go-swagger/codescan"
 
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/spec"
 	"github.com/jessevdk/go-flags"
-	"github.com/protodev-site/spec"
-	"github.com/protodev-site/loads"
 	"gopkg.in/yaml.v2"
 )
 

@@ -10,11 +10,11 @@ import (
 	"net/url"
 
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/runtime"
-	rtclient "github.com/protodev-site/runtime/client"
+	"github.com/circl-dev/runtime"
+	rtclient "github.com/circl-dev/runtime/client"
 
-	"github.com/protodev-site/go-swagger/examples/contributed-templates/stratoscale/client/pet"
-	"github.com/protodev-site/go-swagger/examples/contributed-templates/stratoscale/client/store"
+	"github.com/circl-dev/go-swagger/examples/contributed-templates/stratoscale/client/pet"
+	"github.com/circl-dev/go-swagger/examples/contributed-templates/stratoscale/client/store"
 )
 
 const (

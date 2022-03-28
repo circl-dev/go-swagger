@@ -13,7 +13,7 @@ import (
 
 	"golang.org/x/tools/go/packages"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 const pkgLoadMode = packages.NeedName | packages.NeedFiles | packages.NeedImports | packages.NeedDeps | packages.NeedTypes | packages.NeedSyntax | packages.NeedTypesInfo

@@ -8,9 +8,9 @@ package operations
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 
-	"github.com/protodev-site/go-swagger/examples/composed-auth/models"
+	"github.com/circl-dev/go-swagger/examples/composed-auth/models"
 )
 
 // AddOrderHandlerFunc turns a function with the right signature into a add order handler

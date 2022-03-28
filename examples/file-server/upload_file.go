@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/protodev-site/go-swagger/examples/file-server/client"
-	"github.com/protodev-site/go-swagger/examples/file-server/client/uploads"
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/go-swagger/examples/file-server/client"
+	"github.com/circl-dev/go-swagger/examples/file-server/client/uploads"
+	"github.com/circl-dev/runtime"
 )
 
 func main() {

@@ -21,7 +21,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 type parsedPathContent struct {

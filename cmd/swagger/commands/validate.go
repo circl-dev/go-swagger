@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/validate"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/validate"
-	"github.com/protodev-site/loads"
 )
 
 const (

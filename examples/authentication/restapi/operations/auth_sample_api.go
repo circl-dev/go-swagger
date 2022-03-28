@@ -13,14 +13,14 @@ import (
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
-	"github.com/protodev-site/runtime/security"
-	"github.com/protodev-site/spec"
-	"github.com/protodev-site/loads"
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
+	"github.com/circl-dev/runtime/security"
+	"github.com/circl-dev/spec"
+	"github.com/circl-dev/loads"
 
-	"github.com/protodev-site/go-swagger/examples/authentication/models"
-	"github.com/protodev-site/go-swagger/examples/authentication/restapi/operations/customers"
+	"github.com/circl-dev/go-swagger/examples/authentication/models"
+	"github.com/circl-dev/go-swagger/examples/authentication/restapi/operations/customers"
 )
 
 // NewAuthSampleAPI creates a new AuthSample instance

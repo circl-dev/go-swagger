@@ -27,7 +27,7 @@
           "x-go-name": "Type"
         }
       },
-      "x-go-package": "github.com/protodev-site/go-swagger/fixtures/bugs/981"
+      "x-go-package": "github.com/circl-dev/go-swagger/fixtures/bugs/981"
     }
   }
 }

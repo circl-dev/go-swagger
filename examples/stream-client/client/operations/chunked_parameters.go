@@ -12,8 +12,8 @@ import (
 
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/runtime"
-	cr "github.com/protodev-site/runtime/client"
+	"github.com/circl-dev/runtime"
+	cr "github.com/circl-dev/runtime/client"
 )
 
 // NewChunkedParams creates a new ChunkedParams object,

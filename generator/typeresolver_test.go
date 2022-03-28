@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/protodev-site/spec"
-	"github.com/protodev-site/loads"
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/spec"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

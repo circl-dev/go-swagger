@@ -119,7 +119,7 @@ import (
   "net/http"
 
   "github.com/go-openapi/errors"
-  "github.com/protodev-site/runtime/middleware"
+  "github.com/circl-dev/runtime/middleware"
   "github.com/gorilla/context"
 )
 
@@ -172,8 +172,8 @@ package main
 
 import (
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
 
 	"github.com/go-openapi/examples/todo-list/restapi/operations"
 	"github.com/go-openapi/examples/todo-list/restapi/operations/todos"

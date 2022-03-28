@@ -8,9 +8,9 @@ package todos
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
-	"github.com/protodev-site/go-swagger/examples/tutorials/todo-list/server-1/models"
+	"github.com/circl-dev/go-swagger/examples/tutorials/todo-list/server-1/models"
 )
 
 // FindTodosOKCode is the HTTP code returned for type FindTodosOK

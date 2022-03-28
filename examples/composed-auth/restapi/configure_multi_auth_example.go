@@ -7,15 +7,15 @@ import (
 	"log"
 	"net/http"
 
+	runtime "github.com/circl-dev/runtime"
+	middleware "github.com/circl-dev/runtime/middleware"
 	"github.com/davecgh/go-spew/spew"
 	errors "github.com/go-openapi/errors"
-	runtime "github.com/protodev-site/runtime"
-	middleware "github.com/protodev-site/runtime/middleware"
 
-	"github.com/protodev-site/go-swagger/examples/composed-auth/restapi/operations"
+	"github.com/circl-dev/go-swagger/examples/composed-auth/restapi/operations"
 
-	auth "github.com/protodev-site/go-swagger/examples/composed-auth/auth"
-	models "github.com/protodev-site/go-swagger/examples/composed-auth/models"
+	auth "github.com/circl-dev/go-swagger/examples/composed-auth/auth"
+	models "github.com/circl-dev/go-swagger/examples/composed-auth/models"
 )
 
 //go:generate swagger generate server --target .. --name multi-auth-example --spec ../swagger.yml --principal models.Principal

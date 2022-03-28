@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/circl-dev/go-swagger/scan"
 	"github.com/jessevdk/go-flags"
-	"github.com/protodev-site/go-swagger/scan"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v2"
 )

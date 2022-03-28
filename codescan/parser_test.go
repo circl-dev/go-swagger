@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 	"github.com/stretchr/testify/assert"
 )
 

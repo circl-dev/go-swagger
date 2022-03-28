@@ -8,9 +8,9 @@ package store
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 
-	"github.com/protodev-site/go-swagger/examples/generated/models"
+	"github.com/circl-dev/go-swagger/examples/generated/models"
 )
 
 // GetOrderByIDOKCode is the HTTP code returned for type GetOrderByIDOK

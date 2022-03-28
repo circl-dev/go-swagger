@@ -11,7 +11,7 @@ import (
 
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/validate"
+	"github.com/circl-dev/validate"
 )
 
 // HotspotType hotspot type

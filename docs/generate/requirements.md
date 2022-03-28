@@ -28,12 +28,12 @@ provided by the `vendor` directory that ships with `go-swagger`.
 The following required dependencies may be fetched by using `go get`:
 
 - [`github.com/go-openapi/errors`](https://www.github.com/go-openapi/errors)
-- [`github.com/protodev-site/loads`](https://www.github.com/protodev-site/loads)
-- [`github.com/protodev-site/runtime`](https://www.github.com/protodev-site/runtime)
+- [`github.com/circl-dev/loads`](https://www.github.com/circl-dev/loads)
+- [`github.com/circl-dev/runtime`](https://www.github.com/circl-dev/runtime)
 - [`github.com/go-openapi/spec`](https://www.github.com/go-openapi/spec)
 - [`github.com/go-openapi/strfmt`](https://www.github.com/go-openapi/strfmt)
 - [`github.com/go-openapi/swag`](https://www.github.com/go-openapi/swag)
-- [`github.com/protodev-site/validate`](https://www.github.com/protodev-site/validate)
+- [`github.com/circl-dev/validate`](https://www.github.com/circl-dev/validate)
 
 You may also build a vendor directory in your planned target: a way to achieve that is to copy there an example from the
 `go-swagger/examples` repository then run `dep` - see [how to use dep here](https://github.com/golang/dep).
@@ -65,7 +65,7 @@ The generated models package depends only on:
 - [`github.com/go-openapi/errors`](https://www.github.com/go-openapi/errors)
 - [`github.com/go-openapi/strfmt`](https://www.github.com/go-openapi/strfmt)
 - [`github.com/go-openapi/swag`](https://www.github.com/go-openapi/swag)
-- [`github.com/protodev-site/validate`](https://www.github.com/protodev-site/validate)
+- [`github.com/circl-dev/validate`](https://www.github.com/circl-dev/validate)
 
 ### How about generating specs?
 

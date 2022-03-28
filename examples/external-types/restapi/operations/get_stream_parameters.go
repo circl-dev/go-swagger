@@ -9,7 +9,7 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/runtime/middleware"
+	"github.com/circl-dev/runtime/middleware"
 )
 
 // NewGetStreamParams creates a new GetStreamParams object

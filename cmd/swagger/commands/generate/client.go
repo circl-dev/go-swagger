@@ -17,7 +17,7 @@ package generate
 import (
 	"log"
 
-	"github.com/protodev-site/go-swagger/generator"
+	"github.com/circl-dev/go-swagger/generator"
 )
 
 type clientOptions struct {
@@ -73,8 +73,8 @@ func (c *Client) log(rp string) {
 For this generation to compile you need to have some packages in your GOPATH:
 
 	* github.com/go-openapi/errors
-	* github.com/protodev-site/runtime
-	* github.com/protodev-site/runtime/client
+	* github.com/circl-dev/runtime
+	* github.com/circl-dev/runtime/client
 	* github.com/go-openapi/strfmt
 
 You can get these now with: go get -u -f %s/...

@@ -3,7 +3,7 @@ package diff_test
 import (
 	"testing"
 
-	"github.com/protodev-site/go-swagger/cmd/swagger/commands/diff"
+	"github.com/circl-dev/go-swagger/cmd/swagger/commands/diff"
 	"github.com/stretchr/testify/require"
 )
 

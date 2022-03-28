@@ -9,14 +9,14 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
-	"github.com/protodev-site/runtime/security"
-	"github.com/protodev-site/loads"
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
+	"github.com/circl-dev/runtime/security"
+	"github.com/circl-dev/loads"
 
-	"github.com/protodev-site/go-swagger/examples/contributed-templates/stratoscale/restapi/operations"
-	"github.com/protodev-site/go-swagger/examples/contributed-templates/stratoscale/restapi/operations/pet"
-	"github.com/protodev-site/go-swagger/examples/contributed-templates/stratoscale/restapi/operations/store"
+	"github.com/circl-dev/go-swagger/examples/contributed-templates/stratoscale/restapi/operations"
+	"github.com/circl-dev/go-swagger/examples/contributed-templates/stratoscale/restapi/operations/pet"
+	"github.com/circl-dev/go-swagger/examples/contributed-templates/stratoscale/restapi/operations/store"
 )
 
 type contextKey string

@@ -10,11 +10,11 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
-	"github.com/protodev-site/validate"
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
+	"github.com/circl-dev/validate"
 
-	"github.com/protodev-site/go-swagger/examples/generated/models"
+	"github.com/circl-dev/go-swagger/examples/generated/models"
 )
 
 // NewAddPetParams creates a new AddPetParams object

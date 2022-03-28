@@ -24,9 +24,9 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/spec"
-	"github.com/protodev-site/loads"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -3,7 +3,7 @@ package codescan
 import (
 	"fmt"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 func opConsumesSetter(op *spec.Operation) func([]string) {

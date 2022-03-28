@@ -11,13 +11,13 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/circl-dev/go-swagger/fixtures/bugs/1232/gen-fixture-1232/models"
+	"github.com/circl-dev/runtime"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/go-swagger/fixtures/bugs/1232/gen-fixture-1232/models"
-	"github.com/protodev-site/runtime"
 	"github.com/stretchr/testify/assert"
 )
 
-//"github.com/protodev-site/go-swagger/fixtures/bugs/1232/gen-fixture-1232/mode"
+//"github.com/circl-dev/go-swagger/fixtures/bugs/1232/gen-fixture-1232/mode"
 
 func Test_Pet(t *testing.T) {
 	base := "pet-data"

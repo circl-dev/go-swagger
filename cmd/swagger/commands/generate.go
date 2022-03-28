@@ -14,7 +14,7 @@
 
 package commands
 
-import "github.com/protodev-site/go-swagger/cmd/swagger/commands/generate"
+import "github.com/circl-dev/go-swagger/cmd/swagger/commands/generate"
 
 // Generate command to group all generator commands together
 type Generate struct {

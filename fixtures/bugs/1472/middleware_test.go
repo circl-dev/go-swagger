@@ -10,12 +10,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/protodev-site/runtime/middleware"
-	"github.com/protodev-site/loads"
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/runtime/middleware"
 
-	"github.com/protodev-site/go-swagger/fixtures/bugs/1472/restapi"
-	"github.com/protodev-site/go-swagger/fixtures/bugs/1472/restapi/operations"
-	"github.com/protodev-site/go-swagger/fixtures/bugs/1472/restapi/operations/ops"
+	"github.com/circl-dev/go-swagger/fixtures/bugs/1472/restapi"
+	"github.com/circl-dev/go-swagger/fixtures/bugs/1472/restapi/operations"
+	"github.com/circl-dev/go-swagger/fixtures/bugs/1472/restapi/operations/ops"
 )
 
 type User struct {

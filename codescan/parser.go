@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/circl-dev/loads/fmts"
+	"github.com/circl-dev/spec"
 	"github.com/pkg/errors"
-	"github.com/protodev-site/spec"
-	"github.com/protodev-site/loads/fmts"
 	"gopkg.in/yaml.v2"
 )
 

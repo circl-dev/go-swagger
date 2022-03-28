@@ -3,7 +3,7 @@ package codescan
 import (
 	"testing"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -265,7 +265,7 @@ func TestParseResponses_Issue2011(t *testing.T) {
 
 func TestParseResponses_Issue2145(t *testing.T) {
 	sctx, err := newScanCtx(&Options{
-		Packages: []string{"github.com/protodev-site/go-swagger/fixtures/goparsing/product/..."},
+		Packages: []string{"github.com/circl-dev/go-swagger/fixtures/goparsing/product/..."},
 	})
 	require.NoError(t, err)
 	responses := make(map[string]spec.Response)

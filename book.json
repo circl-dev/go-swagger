@@ -3,7 +3,7 @@
   "plugins": [ "forkmegithub", "prism", "-highlight", "anchors" ],
   "pluginsConfig": {
     "forkmegithub": {
-      "url": "https://github.com/protodev-site/go-swagger",
+      "url": "https://github.com/circl-dev/go-swagger",
       "color": "green"
     }
   }

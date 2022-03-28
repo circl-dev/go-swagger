@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/tools/go/ast/astutil"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 type responseTypable struct {

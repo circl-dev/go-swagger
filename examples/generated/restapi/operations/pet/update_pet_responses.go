@@ -8,7 +8,7 @@ package pet
 import (
 	"net/http"
 
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 // UpdatePetBadRequestCode is the HTTP code returned for type UpdatePetBadRequest

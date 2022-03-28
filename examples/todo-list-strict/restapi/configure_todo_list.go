@@ -6,11 +6,11 @@ import (
 	"crypto/tls"
 	"net/http"
 
+	"github.com/circl-dev/runtime"
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/runtime"
 
-	"github.com/protodev-site/go-swagger/examples/todo-list-strict/restapi/operations"
-	"github.com/protodev-site/go-swagger/examples/todo-list-strict/restapi/operations/todos"
+	"github.com/circl-dev/go-swagger/examples/todo-list-strict/restapi/operations"
+	"github.com/circl-dev/go-swagger/examples/todo-list-strict/restapi/operations/todos"
 )
 
 //go:generate swagger generate server --target ../../todo-list-strict --name TodoList --spec ../swagger.yml --strict-responders

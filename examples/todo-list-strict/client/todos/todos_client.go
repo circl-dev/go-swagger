@@ -7,7 +7,7 @@ package todos
 
 import (
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/runtime"
+	"github.com/circl-dev/runtime"
 )
 
 // New creates a new todos API client.

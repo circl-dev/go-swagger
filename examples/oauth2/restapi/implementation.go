@@ -8,9 +8,9 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
 	oidc "github.com/coreos/go-oidc"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 )

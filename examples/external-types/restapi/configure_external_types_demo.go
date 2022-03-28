@@ -6,11 +6,11 @@ import (
 	"crypto/tls"
 	"net/http"
 
+	"github.com/circl-dev/runtime"
+	"github.com/circl-dev/runtime/middleware"
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/runtime"
-	"github.com/protodev-site/runtime/middleware"
 
-	"github.com/protodev-site/go-swagger/examples/external-types/restapi/operations"
+	"github.com/circl-dev/go-swagger/examples/external-types/restapi/operations"
 )
 
 //go:generate swagger generate server --target ../../external-types --name ExternalTypesDemo --spec ../example-external-types.yaml --principal interface{}
